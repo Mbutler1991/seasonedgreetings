@@ -52,3 +52,33 @@ p {
     transform: translateY(-50%);
     width: 5%;
   }
+
+  /*----- FOOTER -----*/
+
+   .footer{
+    background-color: #9197AE;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    bottom:0;
+    width: 100%;
+    position: absolute;
+  }
+
+  .footer .social-media {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    gap:10px;
+    border-radius: 10%;
+  }
+
+  .footer .social-media li {
+    display: inline;
+  }
+  
+  .footer .social-media a {
+    color: #EFF6EE;
+    text-decoration: none;
+    font-size: 20px;
+  }
