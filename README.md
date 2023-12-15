@@ -93,7 +93,7 @@ A search with ingredients could enable:
 <!-- check which version was used -->
 
 ## Frameworks, Libraries & Programs Used
-- Bootstrap XXX INSERT LINK TO VERSION 4 USED
+<!-- Bootstrap VERSION 4 USED? -->
 
 - [Git](https://git-scm.com/) - For version control.
 
@@ -107,8 +107,6 @@ A search with ingredients could enable:
 
 - [Tiny PNG](https://tinypng.com/) To compress images.
 
-- CHECK XXX [Birme](https://www.birme.net/) To resize images and convert to webp format.
-
 - [Favicon.io](https://favicon.io/) To create favicon.
 
 - [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
@@ -119,15 +117,14 @@ A search with ingredients could enable:
 
 
 ## Testing
-- [W3C Validation Service ](https://validator.w3.org/) was used to validate HTML and CSS code
-<!-- INSERT 2 IMAGES  -->
-
 - [Jayshint](https://jshint.com/)
 <!-- INSERT IMAGE  -->
 
 ### Validation Results
+- [W3C Validation Service ](https://validator.w3.org/) was used to validate HTML and CSS code
+<!-- INSERT 2 IMAGES  -->
+
 ### Manual Testing
-## Manual Testing
 | Test | Expected Behavior | Test Result |
 | --- |--- |--- |
 | Search bar input empty space | Error message displayed and user is asked to try again | Passed |
@@ -139,9 +136,8 @@ A search with ingredients could enable:
 
 ## Bugs
 ### Solved Bugs
-- There were many parameter issues regarding the account name intially.  These are all fixed. 
-- The sequencing of creating a new account had to be adjusted to ensure that the correct balance is given if the account is found. This was fixed by using nested functions and atomic style coding.
-- The initial gspead import gave several issues, which were solved by updating imported library versions.
+<!-- put in any solved bugs, maybe novice GitHub users wiki from veteran helped? -->
+
 
 ### Remaining Bugs
 There are no bugs remaining.
