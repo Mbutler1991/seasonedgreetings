@@ -1,59 +1,96 @@
-# Seasoned Greetings
+# Seasoned Greetings🍒
+<!--   -->
 ## Goal
 <b>Seasoned Greetings<b/> is meant to attract people who want to share holiday recipes.  
 
-XXX GIVE ONE OR TWO PARAGRAPHS HIGHLIGHTING THE 'HOOK' FEATURES
+<!-- GIVE ONE OR TWO PARAGRAPHS HIGHLIGHTING THE 'HOOK' FEATURES AFTER THE API IS UP AND RUNNING -->
 
-INSERT LANDING PAGE
+<!-- INSERT LANDING PAGE IMAGE HERE ONCE IT IS FINALISED -->
 
-Please view the Seasoned Greetings live project XXXX[here]
+Please view the Seasoned Greetings live project [here.](https://mbutler1991.github.io/seasonedgreetings/)
 
 ### Problem Statement
 As a user I want to be able to search recipes with a powerful filtering capacity to accomodate my preferences.
 
 ### Objective(s)
-Create a website that allows users to search for holiday recipes with a filter that can accomodate preferences for: XXX CHECK: ingredients, course, and zero-waste??  
+The main objective is to create a website that allows users to search for holiday recipes.  
+<!-- elaborate on functionality of api as features and achievementsonce it is up and running --> 
 
 ## Criteria
 In this section, we will briefly discuss how our team addressed the applicable criteria:
-XXX INSERT info challenges front-end only as a recipe resource?
+- The front-end only criteria limited the scope for publishing a recipe rating system and database.  
+- Publishing recipes in a blog also became problematic. 
+<!-- HELP WITH THIS PLEASE -->
 
 ## User Stories
-As a user I want to be able to search for recipes using filters for ingredients and keywords.
+As a user I want to be able to search for holiday recipes using filters so that I can download them.
+<!-- printing and emailing would also be great -->
 
 ### Target Audience
-- The target audience is inclusive, ensuring that people across the globe can use this website regardless of religion, culture, dietrary constraints, lifestyle choices and ingredient limitations. 
-- Consideration was given to present the holiday spirit in a generic, commercial tone to avoid excluding anyone.
+- The target audience is the global citizen.  People across the globe can use this website regardless of religion, culture, dietrary constraints, lifestyle choices and ingredient limitations. 
+- Consideration was given to present the holiday spirit in a generic, commercial tone to promote inclusivity.
 
 ## Features
 ###  The project goes beyond the requirements of the assigned task
-- An API link to gives the user a broad scope to filter recipes [Edaman](https://www.edamam.com/wizard/)
 - The website is designed in such a way that it is future-proofed for scalability by keeping a basic structure that can easily be expanded and made more complex.
+- An API link to gives the user a broad scope to filter recipes from.
 
-
+<!-- Insert link for API and highlight some features from the API choice --> 
 
 ###  Existing Features
-The website was designed with responsive design
+- The website was designed with responsive design for mobiles, laptops, and desktops.
+<!-- Insert image and elaborate on scalability/future-proofing or UX  -->
 
 #### Navigation Bar
+- The navigation bar is easy to use with ...
+<!--  insert image and elaborate on color use for visibility and so on -->
+
 #### Main Heading
 #### Footer
+<!-- insert image and details once complete -->
 
 ## Ideas For Future Features
-- In future this website could accomodate a 'zero waste' functionality by allowing a search for recipes by ingredients. 
-- This can then be marketed to the climate conscious, penny-pinchers and thrifty market.
+<!-- pull from the section on project board once MVP is established -->
 
 ### Design
 #### Color Scheme
+<!-- get from Emily once finalised -->
+
 #### Typography
+Font Choice: This font was chosen to create an impact on the overall readability and style of the text. 
+<!-- insert image and choice -->
+
+Font Size: A font size that is comfortable to read was used. Headings and subheadings may have larger font sizes to distinguish them from body text.
+
+Formatting: Options such as bold, italics, and code blocks to highlight important information or code snippets were used. 
+
+Line Spacing: Proper line spacing to enhance readability is used. 
+
+Hierarchy: Appropriate use of headings and subheadings create a clear hierarchy in the site. This helps readers quickly identify different sections and understand the structure of the content.
+
+Consistency: A consistent style is maintained throughout the site lending itself to a professional and polished appearance.
+
 #### Wireframes
-XXXX INSERT WIREFRAME
+<!-- INSERT WIREFRAME image and reference in Credits below -->
 
 ###  Project is 100% Front-end
+<!-- is this even a heading, got it from the example but will discard unless justified -->
+
+### Future Features
+A search with ingredients could enable:
+- zero waste, a current culinary trend.
+- multi-cultural dining opportunities by providing alternatives for example, Halaal, Kosher, or Jainism.
+- locally sourced ingredients to minimize carbon footprint. 
+- personal preferences as an alternative to accommodate food intolerances, allergies and healthier alternatives.
+- make following nutritional lifestyles easier for example, Palio, Keto, and Mediterranean.
+- economical cooking is made easier!
+
 ## Technologies Used 
 - HTML
 - CSS
 - JavaScript
+- Bootstrap 
+<!-- check which version was used -->
 
 ## Frameworks, Libraries & Programs Used
 - Bootstrap XXX INSERT LINK TO VERSION 4 USED
@@ -77,17 +114,38 @@ XXXX INSERT WIREFRAME
 - [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 - [Shields.io](https://shields.io/) To add badges to the README.
+<!-- only if applicable -->
+- [ChatGPT](https://chat.openai.com/) was used as a resource.
 
 
 ## Testing
-- W3C Markup Validator
-XXX INSERT PIC
+- [W3C Validation Service ](https://validator.w3.org/) was used to validate HTML and CSS code
+<!-- INSERT 2 IMAGES  -->
 
-- WEC CSS Validator
-XXX INSERT PIC
+- [Jayshint](https://jshint.com/)
+<!-- INSERT IMAGE  -->
 
 ### Validation Results
 ### Manual Testing
+## Manual Testing
+| Test | Expected Behavior | Test Result |
+| --- |--- |--- |
+| Search bar input empty space | Error message displayed and user is asked to try again | Passed |
+| Search bar input numeric characters | Error message displayed and user is asked to try again | Passed |
+| Search bar recipe input uppercase and lowercase |  Automatically convert to lowercase | Passed |
+| Search bar input Enter key only | Error message displayed and user is asked to try again | Passed |
+| Search bar input Spacebar key only | Error message displayed and user is asked to try again | Passed |
+| Incorrect URL extension | Revert to 404 page | Passed |
+
+## Bugs
+### Solved Bugs
+- There were many parameter issues regarding the account name intially.  These are all fixed. 
+- The sequencing of creating a new account had to be adjusted to ensure that the correct balance is given if the account is found. This was fixed by using nested functions and atomic style coding.
+- The initial gspead import gave several issues, which were solved by updating imported library versions.
+
+### Remaining Bugs
+There are no bugs remaining.
+<!-- check -->
 
 ##  Project is well planned using Github Projects
 - The project can be viewed [Seasonsed Greetings](https://github.com/users/Mbutler1991/projects/).
@@ -126,17 +184,23 @@ If you would like to contribute to the project, please follow these guidelines:
 - Open a pull request
 
 ### Github Pages
+<!-- what is this for - discard if not used -->
 
 ## Credits
-### Code
-- All code was writted by the developers: Caylin Dewey, Emily Rosenberg, Jonathan Zakrisson, Mark Butler, and Jake (Yakiv) Brychuk
-- Kera Cudmore contributed as facilitator and mentor.
+### Code and Media
+
+- [Code Institute Readme Template Tutorial](Code-Institute-Solutions/readme-template).
+- [Code Institue Readme from Kera Cudmore](https://github.com/kera-cudmore).
+- [Am I Responsive](https://ui.dev/amiresponsive) displays the site on a range of devices.
+- [Favicon](https://favicon.io/emoji-favicons/) supplied the cherries favicon under food and drink.
+- 
+<!--  insert Wireframe details -->
+<!-- insert font awesome details -->
 
 ### Content
-- All content was writted by the developers: Caylin Dewey, Emily Rosenberg, Jonathan Zakrisson, Mark Butler, and Jake (Yakiv) Brychuk
-- Kera Cudmore contributed as facilitator and mentor.
-
-### Media
+- All code was writted by the developers: Caylin Dewey, Emily Rosenberg, Jonathan Zakrisson, Mark Butler, and Yakiv Brychuk
+- Kasia Bogucka contributed as facilitator and mentor.
 
 ## Acknowledgements
 - Code Institute Hackathon Crew: Kasia Bogucka, Kenan Wright, Kera Cudmore, Lane-Sawyer Thompson
+- <b>Code Institute </b> Slack community provided solutions and feedback.
