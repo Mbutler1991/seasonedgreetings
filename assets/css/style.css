@@ -52,6 +52,15 @@ p {
     transform: translateY(-50%);
     width: 5%;
   }
+  
+  html, body {
+    height: 100%;
+}
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+}
 
 
 /* ----- CONTACT PAGE -----*/
@@ -99,16 +108,13 @@ input[type="submit"] {
 
   /*----- FOOTER -----*/
 
-   .footer{
+  .footer{
     background-color: #9197AE;
     padding: 10px;
     text-align: center;
     color: white;
-    bottom:0;
     width: 100%;
-    position: absolute;
   }
-
   .footer .social-media {
     list-style: none;
     padding: 0;
@@ -116,11 +122,9 @@ input[type="submit"] {
     gap:10px;
     border-radius: 10%;
   }
-
   .footer .social-media li {
     display: inline;
   }
-  
   .footer .social-media a {
     color: #EFF6EE;
     text-decoration: none;
