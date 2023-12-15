@@ -19,4 +19,6 @@ async function callApi() {
 }
 
 // adds event listener to search button which calls api function
+
 search.addEventListener('click', callApi);
+
