@@ -1,0 +1,225 @@
+/*----- Cracker from: https://codepen.io/john_r_muir/pen/RwRObMK -----*/
+
+@import url(https://fonts.googleapis.com/css?family=Berkshire+Swash);
+
+:root {
+    --cracker-red: #b81313;
+    --cracker-burgandy: #771313;
+    --cracker-yellow: #F2A801;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(#199a37ce, #45a766b7) no-repeat;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: var(--cracker-red);
+    text-shadow: 3px 3px #fff;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*----- Cracker -----*/
+/* .cracker {
+    padding-top: 150px;
+} */
+
+
+#crackerWrapper{
+    cursor: pointer;
+    height: 120px;
+    width: 586px;
+    transform: scaleX(1);
+    text-align: center;
+}
+
+#message{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+    color: var(--cracker-red);
+    text-shadow: 3px 3px #fff;
+    animation: null;
+}
+
+@keyframes title{
+    from{
+        font-size: 30px;
+        transform: translate(0px, 0px);
+    }
+    to{
+        font-size: 80px;
+        transform: translate(0px, -250px);
+    }
+}
+
+#jokeWrap{
+    width: 326px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    text-align: center;
+    animation: null;
+}
+
+@keyframes joke{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#leftCracker{
+    width: 300px;
+    height: 120px;
+    animation: null;
+}
+
+@keyframes left{
+    from{
+        transform: translate(0px, 0px) rotate(0deg)
+    }
+    to{
+        transform: translate(-140px, 80px) rotate(-30deg)
+    }
+}
+
+.end{
+    position: relative;
+    top: -120px;
+    left: 0px;
+    height: 120px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:  var(--cracker-burgandy);
+}
+
+.handle{
+    position: relative;
+    top: 0px;
+    left: 5px;
+    height: 120px;
+    width: 50px;
+    background-color: var(--cracker-red);
+}
+
+.handle2{
+    position: relative;
+    top: -240px;
+    left: 55px;
+    border-left: 40px solid var(--cracker-red);
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    height: 70px;
+    width: 0;
+}
+
+.ring{
+    position: relative;
+    top: -338px;
+    left: 95px;
+    height: 76px;
+    width: 15px;
+    background-color: var(--cracker-yellow);
+    border-radius: 3px;
+}
+
+.body{
+    position: relative;
+    top: -435px;
+    left: 110px;
+    border-right: 20px solid  var(--cracker-burgandy);
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    height: 70px;
+    width: 0;
+}
+
+.body2{
+    position: relative;
+    top: -556px;
+    left: 130px;
+    height: 120px;
+    width: 150px;
+    background-color: var(--cracker-red);
+}
+
+.zigzag{
+    position: relative;
+    top: -676px;
+    left: 260px;
+    height: 120px;
+    width: 40px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+}
+
+.zig1{
+    height: 30px;
+    width: 30px;
+    background-color:  var(--cracker-burgandy);
+    transform: translate(5px, -14px) rotate(45deg);
+}
+
+#rightCracker{
+    position: relative;
+    top: -120px;
+    left: 286px;
+    width: 300px;
+    height: 120px;
+    transform: rotate(180deg);
+    animation: null;
+}
+
+@keyframes right{
+    from{
+        transform: translate(0px, 0px) rotate(180deg)
+    }
+    to{
+        transform: translate(140px, 80px) rotate(210deg)
+    }
+}
+
+#rightCracker > .zigzag .zig1{
+    height: 30px;
+    width: 30px;
+    background-color: var(--cracker-burgandy);
+    transform: translate(5px, -1px) rotate(45deg);
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.button {
+    justify-content: center;
+    align-items: center;
+    font-family: var(--body-text);
+    font-size: 25px;
+    background:#c31a1af5;
+    color: white;
+    border: #032103;
+    box-shadow: 10px 10px 10px #032103;
+    margin-top: 200px;
+    padding: 12px;
+    border-radius: 12px;
+    text-decoration: none;
+}
