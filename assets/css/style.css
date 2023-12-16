@@ -21,6 +21,21 @@
     --dark-red: #DD0426;
 }
 
+.title {
+    font-family: var(--body-text);
+    font-size: 2vw;
+}
+
+h1 {
+    font-family: var(--heading-text);
+    font-size: 6vw;
+}
+
+h2 {
+    font-family: var(--body-text);
+    font-size: 1.5vw;
+}
+
 h5 {
     font-family: var(--heading-text);
 }
