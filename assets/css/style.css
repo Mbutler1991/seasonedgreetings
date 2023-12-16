@@ -131,12 +131,9 @@ label {
   display: block;
   margin-top: 10px;
   color: #d9534f; 
-  color: #d9534f; 
 }
 
 input,
-textarea,
-select { 
 textarea,
 select { 
   width: 100%;
@@ -151,7 +148,6 @@ select {
 }
 
 input[type="submit"] {
-  background-color: #5cb85c; 
   background-color: #5cb85c; 
   color: white;
   cursor: pointer;
@@ -174,7 +170,9 @@ select {
 /* Optional: Add festive styles to the dropdown */
 select:focus {
   border-color: #d9534f; /* Red border on focus */
+
   box-shadow: 0 0 5px #d9534f; /* Red box-shadow on focus */
+
 }
 
   /*----- FOOTER -----*/
