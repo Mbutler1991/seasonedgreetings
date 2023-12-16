@@ -32,7 +32,7 @@ body {
   background-color: var(--white)
 }
 
-.navbar {
+.navbar .footer {
   background-color: #DD0426;
 }
 
@@ -52,6 +52,12 @@ h1 {
 h2 {
     font-family: var(--body-text);
     font-size: 1.5vw;
+}
+
+h3 {
+    font-family: var(--heading-text);
+    font-size: 2vw;
+    color: #EFF6EE;
 }
 
 h5 {
