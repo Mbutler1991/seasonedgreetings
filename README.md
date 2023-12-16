@@ -6,7 +6,7 @@
 </h1>
 
 
-<img src="../seasonedgreetings/family.jpg" alt="HackathonChristmas" width="1200"/>
+<img src="assets/images/readme/family.jpg" alt="HackathonChristmas" width="1200"/>
 
 # SUBMISSION
 ## Deployment
@@ -15,12 +15,12 @@ The project is deployed and can be accessed at [http://your-deployed-link.com](h
 Please view the Seasoned Greetings live project [here.](https://mbutler1991.github.io/seasonedgreetings/).
 
 ## Deployment and Local Development
-The project is deployed and can be accessed at [http://your-deployed-link.com](http://your-deployed-link.com).
+The project is deployed and can be accessed on this [hyperlink.](http://your-deployed-link.com)
 
 ### How to Deploy 
 Github was used to deploy this site.  The steps are as follows:
-1. Log into the [Github site](https://github.com/).
-2. Pull up the repository for [Seasoned Greetings](https://github.com/Mbutler1991/seasonedgreetings).
+1. Log into the [Github site.](https://github.com/)
+2. Pull up the repository for [Seasoned Greetings.](https://github.com/Mbutler1991/seasonedgreetings)
 3. Select the settings link, then the pages link.
 4. In the source section choose 'main' from the dropdown menu.  
 5. Select the 'root' from the drop menu and 'save'.
@@ -71,20 +71,20 @@ Consistency: A consistent style is maintained throughout the site lending itself
 
 <h4 align="center"><strong> The Landing Page</strong> 🍒
 
-- ![Landing Page](landing-page.png) 
+- ![Landing Page](assets/images/readme/landing-page.png) 
 
 
 <h4 align="center"><strong> The Recipe Page</strong> 🍒
 
-- ![Recipe Page](recipe-page.png)
+- ![Recipe Page](assets/images/readme/recipe-page.png)
 
 <h4 align="center"><strong> The Thank You Page</strong> 🍒
 
-- ![Contact Page](meet-the-team-page.png)
+- ![Contact Page](assets/images/readme/meet-the-team-page.png)
 
 <h4 align="center"><strong> The Contact Page</strong> 🍒
 
-- ![Contact Page](contact-page.png)
+- ![Contact Page](assets/images/readme/contact-page.png)
 
 ### The project goes beyond the requirements of the assigned task
 - - The website is designed in such a way that it is future-proofed for scalability by keeping a basic structure that can easily be expanded and made more complex.
@@ -123,9 +123,7 @@ The main objective is to create a website that allows users to search for holida
 
 
 ## Tech
-<!-- In the tech section, we provide information about the technology stack, dependencies, and any technical details related to the project. -->
-
-## Technologies Used 
+<!-- In the tech section, we provide information about the technology stack, dependencies, and any technical details related to the project. --> 
 - HTML
 - CSS
 - JavaScript
