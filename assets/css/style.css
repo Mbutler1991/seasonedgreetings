@@ -89,21 +89,45 @@ body > footer {
 label {
   display: block;
   margin-top: 10px;
+  color: #d9534f; 
 }
 
 input,
-textarea {
+textarea,
+select { 
   width: 100%;
   padding: 10px;
   margin-top: 5px;
   margin-bottom: 10px;
   box-sizing: border-box;
+  border: 1px solid #d9534f; 
+  border-radius: 5px;
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: #5cb85c; 
   color: white;
   cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #4cae4c; 
+}
+
+/* Additional styling for select dropdown */
+select {
+  appearance: none;
+  background: url('../images/angle-down-solid.svg') no-repeat right center/15px #fff; 
+  padding-right: 30px; 
+  background-position-x: calc(100% - 10px); 
+  border: 1px solid #d9534f; 
+  border-radius: 5px;
+}
+
+/* Optional: Add festive styles to the dropdown */
+select:focus {
+  border-color: #d9534f; /* Red border on focus */
+  box-shadow: 0 0 5px #DD0426; /* Red box-shadow on focus */
 }
 
   /*----- FOOTER -----*/
