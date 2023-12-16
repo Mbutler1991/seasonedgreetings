@@ -156,6 +156,8 @@ select {
   box-sizing: border-box;
   border: 1px solid #d9534f; 
   border-radius: 5px;
+  border: 1px solid #d9534f; 
+  border-radius: 5px;
 }
 
 input[type="submit"] {
@@ -181,7 +183,9 @@ select {
 /* Optional: Add festive styles to the dropdown */
 select:focus {
   border-color: #d9534f; /* Red border on focus */
-  box-shadow: 0 0 5px #DD0426; /* Red box-shadow on focus */
+
+  box-shadow: 0 0 5px #d9534f; /* Red box-shadow on focus */
+
 }
 
   /*----- FOOTER -----*/
