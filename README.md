@@ -51,11 +51,12 @@ In this section, we will briefly discuss how our team addressed the applicable c
 
 ### Creative design that enhances user-experience
 #### Color Scheme
-<!-- get from Emily once finalised -->
+- The color palette was selected from [Coolers](https://coolors.co/) 
+
+![Coolers](assets/images/readme/color-palette.png)
 
 #### Typography
-Font Choice: This font was chosen to create an impact on the overall readability and style of the text. 
-<!-- insert image and choice -->
+Font Choice: 'Sacramento' font from [Google Fonts](https://fonts.google.com/specimen/Sacramento?query=sacra) was chosen to create an impact on the overall readability and style of the text. 'Great Vibes' and 'Raleway' were also selected for styling. 'Sans-serif' was selected as a backup font.
 
 Font Size: A font size that is comfortable to read was used. Headings and subheadings may have larger font sizes to distinguish them from body text.
 
@@ -66,6 +67,8 @@ Line Spacing: Proper line spacing to enhance readability is used.
 Hierarchy: Appropriate use of headings and subheadings create a clear hierarchy in the site. This helps readers quickly identify different sections and understand the structure of the content.
 
 Consistency: A consistent style is maintained throughout the site lending itself to a professional and polished appearance.
+
+![Font](assets/images/readme/h1-font.png)
 
 #### Wireframes
 
@@ -89,11 +92,18 @@ Consistency: A consistent style is maintained throughout the site lending itself
 ### The project goes beyond the requirements of the assigned task
 - - The website is designed in such a way that it is future-proofed for scalability by keeping a basic structure that can easily be expanded and made more complex.
 - An API link to gives the user a broad scope to filter recipes from.
-
 <!-- Insert link for API and highlight some features from the API choice --> 
+- A contact page where users can make contact and become part of the recipe sharing community. Error handling was included in this form.
+
+![Contact Page Error Handling](assets/images/readme/contac-err-handling.png)
+
+- A thank you page was added for user contact.
+<!-- Insert link for thank you page -->
+
 
 ### Responsive and accessible for different screen sizes
-- 
+- The website is responsive on mobiles, tablets, laptops, and desktops.
+<!-- insert responsive testing -->
 
 ### Project is well planned using Github Projects
 - 
@@ -130,7 +140,7 @@ The main objective is to create a website that allows users to search for holida
 - Bootstrap 
 <!-- check which version Bootstrap was used -->
 
-## Frameworks, Libraries & Programs Used
+## Media, Frameworks, Libraries & Programs Used
 
 - [Git](https://git-scm.com/) - For version control.
 
@@ -150,19 +160,16 @@ The main objective is to create a website that allows users to search for holida
 
 - [Pexels](https://www.pexels.com/) kindly provided a source for images.
 
+- [Coolers](https://coolors.co/) provided a festive palette used on this site.
+
 <!-- only if applicable- [Shields.io](https://shields.io/) To add badges to the README -->
 - [ChatGPT](https://chat.openai.com/) was used as a resource.
 
 ## Credits
-### Code and Media
+### Code
 
 - [Code Institute Readme Template Tutorial](Code-Institute-Solutions/readme-template).
 - [Code Institue Readme from Kera Cudmore](https://github.com/kera-cudmore).
-- [Am I Responsive](https://ui.dev/amiresponsive) displays the site on a range of devices.
-- [Favicon](https://favicon.io/emoji-favicons/) supplied the cherries favicon under food and drink.
-- 
-<!--  insert Wireframe details -->
-<!-- insert font awesome details -->
 
 ### Content
 - All code was writted by the developers: Caylin Dewey, Emily Rosenberg, Jonathan Zakrisson, Mark Butler, and Yakiv Brychuk
