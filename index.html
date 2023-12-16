@@ -56,29 +56,33 @@
 
     <!-- Navbar -->
     <nav class="navbar">
-      <div class="d-flex container-fluid flex-column">
-        <h1 class="d-lg-block d-sm-none mx-auto"><a href="index.html" class="text-black text-decoration-none">Seasoned
+      <span class="w-100 d-flex bg-dark-subtle flex-row-reverse flex-lg-row justify-content-between">
+        <h1 class="d-lg-block d-none mx-auto"><a href="index.html" class="text-black text-decoration-none">Seasoned
             Greetings</a>
         </h1>
-        <h2 class="mx-auto">Hello</h2>
-        <button class="navbar-toggler navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+        <button class="navbar-toggler navbar-toggler shadow-none border-0 " type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+      </span>
+      <div class="d-flex container-fluid flex-column">
+        <h2 class="mx-auto d-lg-block d-none ">All the best recipes for your holiday feast!</h2>
       </div>
+
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <div class="d-flex flex-column gap-2 align-items-center">
-          <a class="navbar-brand d-lg-none mx-auto" href="#">Seasoned Greetings</a>
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="navbar-brand d-lg-none mx-auto" href="index.html">Seasoned
+            Greetings</a>
           <a class="nav-link" href="#">Favorites</a>
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </div>
       </div>
+      <br>
       <div class="input-group w-75 mx-auto">
-        <input type="search" class="form-control rounded" placeholder="Find a Recipe..." aria-label="Recipe Search Bar"
+        <input type="search" class="form-control" placeholder="Find a Recipe..." aria-label="Recipe Search Bar"
           aria-describedby="search-addon" />
-        <button type="button" class="btn btn-outline-primary" id="search" data-mdb-ripple-init>search</button>
+        <button type="button" class="btn btn-outline-primary h-50 m-1" id="search" data-mdb-ripple-init>search</button>
       </div>
     </nav>
     <!-- end of Navbar -->
