@@ -32,8 +32,9 @@ body {
   background-color: var(--white)
 }
 
+/* not working at the moment */
 .navbar .footer {
-  background-color: #DD0426;
+  background-color: var(--dark-red);
 }
 
 /*----- FONT STYLES -----*/
@@ -41,7 +42,7 @@ body {
 h1 {
     font-family: var(--heading-text);
     font-size: 6vw;
-    color: #EFF6EE;
+    color: var(--off-white);
 }
 
 h2 {
@@ -52,7 +53,7 @@ h2 {
 h3 {
     font-family: var(--heading-text);
     font-size: 3vw;
-    color: #EFF6EE;
+    color: var(--off-white);
 }
 
 h5 {
@@ -69,7 +70,15 @@ p {
 }
 
 .subtitle {
-color: #EFF6EE;
+color: var(--off-white);
+}
+
+/*----- NAVBAR STYLES -----*/
+
+.navbar-toggler {
+  position: absolute;
+  /* not working at the moment */
+  color: var(--off-white)
 }
 
 /*----- CAROUSEL STYLES -----*/
