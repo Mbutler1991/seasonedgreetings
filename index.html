@@ -56,11 +56,10 @@
 
     <!-- Navbar -->
     <nav class="navbar">
-      <span class="w-100 d-flex bg-dark-subtle flex-row-reverse flex-lg-row justify-content-between">
-        <h1 class="d-lg-block d-none mx-auto"><a href="index.html" class="text-black text-decoration-none">Seasoned
-            Greetings</a>
+      <span class="w-100 d-flex flex-row-reverse flex-lg-row justify-content-between mt-3">
+        <h1 class="d-lg-block d-none mx-auto"><a href="index.html" class="text-decoration-none">Seasoned Greetings</a>
         </h1>
-        <button class="navbar-toggler navbar-toggler shadow-none border-0 " type="button" data-bs-toggle="collapse"
+        <button class="navbar-toggler navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -78,14 +77,15 @@
           <a class="nav-link" href="contact.html">Contact</a>
         </div>
       </div>
-      <br>
-      <div class="input-group w-75 mx-auto">
+    </nav>
+
+    <!-- end of Navbar -->
+      
+    <div class="input-group w-50 mx-auto mt-3">
         <input type="search" class="form-control" placeholder="Find a Recipe..." aria-label="Recipe Search Bar"
           aria-describedby="search-addon" />
         <button type="button" class="btn btn-outline-primary h-50 m-1" id="search" data-mdb-ripple-init>search</button>
-      </div>
-    </nav>
-    <!-- end of Navbar -->
+    </div>
 
   </header>
 
@@ -138,16 +138,20 @@
   </div>
   <!-- end search results -->
 
-  <footer>
-    <div class="social-media">
-      <a href="#" class="fa fa-twitter"></a>
-      <a href="#" class="fa fa-linkedin"></a>
-      <a href="#" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-instagram"></a>
-      <div class="copyright">
-        Copyright &copy; <a href="meet_the_team">Meet the Team</a>
-      </div>
+  <footer class="w-100 d-flex justify-content-between align-items-center">
+    <div class="copyright">
+      <h3>Seasoned Greetings</h3>
     </div>
+    <div>
+      <a class="text-decoration-none" href="team.html">Meet the Team</a>
+    </div>
+    <div class="social-media">
+      <a href="#" class="fa fa-twitter fa-2x text-decoration-none"></a>
+      <a href="#" class="fa fa-linkedin fa-2x text-decoration-none"></a>
+      <a href="#" class="fa fa-facebook fa-2x text-decoration-none"></a>
+      <a href="#" class="fa fa-instagram fa-2x text-decoration-none"></a>
+    </div>
+    <p>Copyright &copy 2023</p>
   </footer>
 
   <!-- Scripts -->
