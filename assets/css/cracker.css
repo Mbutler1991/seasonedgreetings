@@ -1,5 +1,3 @@
-/*----- Cracker from: https://codepen.io/john_r_muir/pen/RwRObMK -----*/
-
 @import url(https://fonts.googleapis.com/css?family=Berkshire+Swash);
 
 :root {
@@ -29,12 +27,7 @@ h2 {
     text-align: center;
 }
 
-/*----- Cracker -----*/
-/* .cracker {
-    padding-top: 150px;
-} */
-
-
+/*----- Cracker from: https://codepen.io/john_r_muir/pen/RwRObMK -----*/
 #crackerWrapper{
     cursor: pointer;
     height: 120px;
@@ -201,7 +194,6 @@ h2 {
     background-color: var(--cracker-burgandy);
     transform: translate(5px, -1px) rotate(45deg);
 }
-
 
 .button-container {
     display: flex;

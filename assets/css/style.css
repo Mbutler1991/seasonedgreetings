@@ -52,6 +52,15 @@ p {
     transform: translateY(-50%);
     width: 5%;
   }
+  
+  html, body {
+    height: 100%;
+}
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+}
 
 
 /* ----- CONTACT PAGE -----*/
@@ -97,3 +106,37 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
+=======
+  /*----- FOOTER -----*/
+
+  .footer{
+    background-color: #9197AE;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+  .footer .social-media {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    gap:10px;
+    border-radius: 10%;
+  }
+  .footer .social-media li {
+    display: inline;
+  }
+  .footer .social-media a {
+    color: #EFF6EE;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+  .contact-form {
+      max-width: 100%;
+  }
+}
+>>>>>>> eb025c36143d4ecd6a1e703cd107bf77c64dda79
