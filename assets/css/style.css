@@ -21,6 +21,34 @@
     --dark-red: #DD0426;
 }
 
+/*----- BACKGROUND STYLES -----*/
+
+body {
+  background-color: var(--off-white);
+  background-image: url("/assets/images/background.jpg");
+}
+
+.card {
+  background-color: var(--white)
+}
+
+/*----- FONT STYLES -----*/
+
+.title {
+    font-family: var(--body-text);
+    font-size: 3vw;
+}
+
+h1 {
+    font-family: var(--heading-text);
+    font-size: 6vw;
+}
+
+h2 {
+    font-family: var(--body-text);
+    font-size: 1.5vw;
+}
+
 h5 {
     font-family: var(--heading-text);
 }
@@ -28,6 +56,8 @@ h5 {
 p {
     font-family: var(--body-text);
 }
+
+/*----- CAROUSEL STYLES -----*/
 
 .carousel-inner {
     display: flex;
