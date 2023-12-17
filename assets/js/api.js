@@ -39,7 +39,7 @@ Promise.all(Array(5).fill().map(fetchMeal))
     <div class="carousel-item ${activeClass}">
       <img src="${recipe.image}" height="auto" width="100%" class="d-block w-100" alt="${recipe.name}">
       <div class="carousel-caption">
-        <h3 class="bg-black">${recipe.name}</h3>
+        <h2 class="bg-black bg-opacity-50 h1">${recipe.name}</h2>
         <button type="button" class="btn search-button btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal${index}">
           See Recipe
         </button>
