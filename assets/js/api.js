@@ -39,8 +39,8 @@ Promise.all(Array(5).fill().map(fetchMeal))
     <div class="carousel-item ${activeClass}">
       <img src="${recipe.image}" height="auto" width="100%" class="d-block w-100" alt="${recipe.name}">
       <div class="carousel-caption">
-        <h5 class="bg-black">${recipe.name}</h5>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal${index}">
+        <h3 class="bg-black">${recipe.name}</h3>
+        <button type="button" class="btn search-button btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal${index}">
           See Recipe
         </button>
       </div>
@@ -61,7 +61,7 @@ Promise.all(Array(5).fill().map(fetchMeal))
             </ul>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn search-button btn-outline-light" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
