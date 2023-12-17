@@ -92,6 +92,26 @@ label {
   color: #d9534f; 
 }
 
+/* Add this CSS to your existing stylesheet or create a new one */
+input[type="file"] {
+  display: none; /* Hide the default file input */
+}
+
+.custom-file-upload {
+  background-color: darkgreen;
+  color: white;
+  padding: 10px;
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Optional: Style the file input button on hover */
+.custom-file-upload:hover {
+  background-color: #31b0d5;
+}
+
 input,
 textarea,
 select { 

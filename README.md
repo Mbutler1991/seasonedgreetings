@@ -103,17 +103,17 @@ Consistency: A consistent style is maintained throughout the site lending itself
 
 ### Responsive and accessible for different screen sizes
 - The website is responsive on mobiles, tablets, laptops, and desktops.
-<!-- insert responsive testing -->
+<!-- Insert responsive testing -->
 
 ### Project is well planned using Github Projects
-- 
+- <!-- Need info for Github Projects well planned -->
 
 ### Project is 100% Front-end
--
+- <!-- Need info the project is 100% front-end -->
 
 # ABOUT SUBMISSION
 ## Intro
-<!-- One or two paragraphs providing an overview of our project -->
+<!-- Put in one or two paragraphs providing an overview of our project -->
 
 ## Goal
 The goal section provides a concise summary of the main objective or purpose of the project or software described in this README. It addresses the following aspects:
@@ -176,5 +176,5 @@ The main objective is to create a website that allows users to search for holida
 - Kasia Bogucka contributed as facilitator and mentor.
 
 ## Acknowledgements
-- Code Institute Hackathon Crew: Kasia Bogucka, Kenan Wright, Kera Cudmore, Lane-Sawyer Thompson
+- Code Institute Hackathon Crew: Kasia Bogucka, Kenan Wright, Kera Cudmore, Lane-Sawyer Thompson for hosting this wondeful Hackathon.
 - <b>Code Institute </b> Slack community provided solutions and feedback.
