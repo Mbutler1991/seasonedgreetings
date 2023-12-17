@@ -29,13 +29,13 @@ function fetchMeal() {
 
 // Fetch 5 random meals and display them in a Bootstrap carousel
 Promise.all(Array(5).fill().map(fetchMeal))
-.then(recipes => {
-  const carouselInner = document.querySelector('.recipes-carousel');
-  carouselInner.innerHTML = '';
+  .then(recipes => {
+    const carouselInner = document.querySelector('.recipes-carousel');
+    carouselInner.innerHTML = '';
 
-  recipes.forEach((recipe, index) => {
-    const activeClass = index === 0 ? 'active' : '';
-    const html = `
+    recipes.forEach((recipe, index) => {
+      const activeClass = index === 0 ? 'active' : '';
+      const html = `
     <div class="carousel-item ${activeClass}">
       <img src="${recipe.image}" height="auto" width="100%" class="d-block w-100" alt="${recipe.name}">
       <div class="carousel-caption">
@@ -68,9 +68,9 @@ Promise.all(Array(5).fill().map(fetchMeal))
     </div>
     `;
 
-    carouselInner.innerHTML += html;
+      carouselInner.innerHTML += html;
+    });
+  })
+  .catch(error => {
+    console.error('Error:', error);
   });
-})
-.catch(error => {
-  console.error('Error:', error);
-});
