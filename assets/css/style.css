@@ -125,7 +125,7 @@ body > footer {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: url('../images/desert.jpg') center/cover no-repeat fixed;
+  background: url('../images/background.jpg') center/cover no-repeat fixed;
 }
 
 .contact-container {
@@ -146,6 +146,30 @@ label {
   color: #d9534f; 
 }
 
+input[type="file"] {
+  display: none; 
+}
+
+.file-upload-container {
+  text-align: center;
+  margin-bottom: 15px; 
+}
+
+.custom-file-upload {
+  background-color: darkgreen;
+  color: white;
+  padding: 10px;
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Optional: Style the file input button on hover */
+.custom-file-upload:hover {
+  background-color: #DD0426;
+}
+
 input,
 textarea,
 select { 
@@ -161,13 +185,13 @@ select {
 }
 
 input[type="submit"] {
-  background-color: #5cb85c; 
+  background-color: darkgreen; 
   color: white;
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: #4cae4c; 
+  background-color: #DD0426; 
 }
 
 /* Additional styling for select dropdown */
