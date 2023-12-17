@@ -25,9 +25,11 @@
 /* Carousel  */
 
 
-.carousel-margin {
+.margin-container {
   margin-top: 500px;
 }
+
+
 
 .border-carousel {
   border: 3px solid var(--light-grey);
