@@ -8,7 +8,8 @@ const jokeWrap = document.getElementById("jokeWrap");
 const joke = document.getElementById("joke");
 const punchline = document.getElementById("punchline");
 
-let counter = 0
+let counter = 0;
+
 let jokes =[
     {Q: "Why can't you take your turkey to church at Christmas?" ,A: "Because it has fowl language!"},
     {Q: "When is a turkey dinner bad for your health?" ,A: "When you're the turkey!"},
@@ -20,37 +21,38 @@ let jokes =[
     {Q: "What do you call it when a family passes down a turkey recipe?" ,A: "Copy and Basting!"},
     {Q: "What do you get if you cross a turkey and a centipede?" ,A: "Drumsticks for everyone!"},
     {Q: "Why's it so cold at Christmas?" ,A: "Because it's Decembrrrrrr!"}
-]
-let num = Math.floor(Math.random() * jokes.length)
+];
+
+let num = Math.floor(Math.random() * jokes.length);
 
 cracker.addEventListener('click', () => {
     if(counter < 1){
-        counter++
+        counter++;
     } else{
-        joke.textContent = jokes[num].Q
-        punchline.textContent = jokes[num].A
-        leftCracker.style.animation = "left 1s forwards"
-        rightCracker.style.animation = "right 1s forwards"
-        message.style.animation = "title 1s forwards"
-        jokeWrap.style.animation = "joke 2s forwards"
-        cracker.style.transform = "scaleX(1)"
+        joke.textContent = jokes[num].Q;
+        punchline.textContent = jokes[num].A;
+        leftCracker.style.animation = "left 1s forwards";
+        rightCracker.style.animation = "right 1s forwards";
+        message.style.animation = "title 1s forwards";
+        jokeWrap.style.animation = "joke 2s forwards";
+        cracker.style.transform = "scaleX(1)";
     }
-})
+});
 
 function Loop(){      
     window.requestAnimationFrame(Loop);
     if(counter > 0 && counter < 1){
-        cracker.style.transform = `scaleX(${1 + (counter / 100)})`
-        counter -= 0.05
+        cracker.style.transform = `scaleX(${1 + (counter / 100)})`;
+        counter -= 0.05;
     }
 }
-Loop()
+Loop();
 
 // Logic to refresh the page using a button so the user can pull the cracker again
 const refreshButton = document.querySelector('.refresh-button');
 
 const refreshPage = () => {
     location.reload();
-}
+};
 
-refreshButton.addEventListener('click', refreshPage)
+refreshButton.addEventListener('click', refreshPage);
