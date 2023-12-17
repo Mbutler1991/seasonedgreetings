@@ -3,8 +3,30 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="Recipes, Find a recipe, Holidays, Christmas, Hanukkah, Winter Solstice, Yule, Kwanza, Bodhi Day">
+  <meta name="description" content="Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season! Contact the Seasoned Greetings team using the contact form">
+  <meta name="url" content="https://mbutler1991.github.io/seasonedgreetings/contact.html">
+
+
+  <!-- SOCIAL MEDIA META -->
+  <!-- Facebook, LinkedIn, Google -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Seasoned Greetings">
+  <meta property="og:description" content="Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season! Contact the Seasoned Greetings team using the contact form">
+  <meta name="image" property="og:image" content="URL TO IMAGE">
+  <meta property="og:image:alt" content="Seasoned Greetings Website shown on a variety of Devices">
+  <meta property="og:url" content="https://mbutler1991.github.io/seasonedgreetings/contact.html">
+  <meta property="og:site_name" content="Seasoned Greetings - Contact Us">
+  <meta name="author" content="The Six Seasons">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Seasoned Greetings - Contact Us">
+  <meta name="twitter:description" content="Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season! Contact the Seasoned Greetings team using the contact form">
+  <meta name="twitter:image" content="URL TO IMAGE">
+  <meta name="twitter:image:alt" content="Seasoned Greetings Website shown on a variety of Devices">
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
@@ -12,7 +34,10 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
   <link rel="manifest" href="assets/images/favicons/site.webmanifest">
 
-  <title>Contact Us</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <title>Seasoned Greetings - Contact Us</title>
 
 </head>
 
@@ -32,11 +57,17 @@
     </div>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <div class="d-flex flex-column gap-2 align-items-center">
-        <a class="navbar-brand d-lg-none mx-auto" href="#">Seasoned Greetings</a>
-        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        <a class="nav-link" href="#">Favorites</a>
-        <a class="nav-link" href="contact.html">Contact</a>
+        
+        <a class="navbar-brand d-lg-none mx-auto" href="index.html">Seasoned
+          Greetings</a>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="favourites.html">Favourites</a>
+        <a class="nav-link" href="team.html">Meet the Team</a>
+        <a class="nav-link active" href="contact.html">Contact</a>
+
       </div>
+    </div>
+  </nav>
     </div>
     <div class="input-group w-75 mx-auto">
       <input type="search" class="form-control rounded" placeholder="Find a Recipe..." aria-label="Recipe Search Bar"
@@ -63,6 +94,9 @@
           <input type="file" id="file" name="file" accept=".pdf, .doc, .docx, .jpg, .jpeg, .png">
         </div>
 
+        <label for="inquiryType">Inquiry Type:</label>
+
+
         <!-- Add a placeholder and options for Recipe Suggestion and General Enquiry -->
         <select id="enquiry-type" name="enquiry-type" required>
           <option value="" disabled selected>Please select</option>
@@ -77,6 +111,19 @@
       </form>
     </div>
   </div>
+
+
+<footer>
+  <div class="social-media">
+    <a href="https://twitter.com/" class="fa fa-twitter"></a>
+    <a href="https://linkedin.com" class="fa fa-linkedin"></a>
+    <a href="https://facebook.com" class="fa fa-facebook"></a>
+    <a href="https://instagram.com" class="fa fa-instagram"></a>
+    <div class="copyright">
+      Copyright &copy; <a href="meet_the_team">Meet the Team</a>
+    </div>
+  </div>
+</footer>
 
 </body>
 

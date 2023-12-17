@@ -21,6 +21,41 @@
     --dark-red: #DD0426;
 }
 
+/*----- BACKGROUND STYLES -----*/
+
+body {
+  background-color: var(--off-white);
+  background-image: url("/assets/images/background.jpg");
+}
+
+.card {
+  background-color: var(--white)
+}
+
+/* not working at the moment */
+.navbar .footer {
+  background-color: var(--dark-red);
+}
+
+/*----- FONT STYLES -----*/
+
+h1 {
+    font-family: var(--heading-text);
+    font-size: 6vw;
+    color: var(--off-white);
+}
+
+h2 {
+    font-family: var(--body-text);
+    font-size: 1.5vw;
+}
+
+h3 {
+    font-family: var(--heading-text);
+    font-size: 3vw;
+    color: var(--off-white);
+}
+
 h5 {
     font-family: var(--heading-text);
 }
@@ -28,6 +63,25 @@ h5 {
 p {
     font-family: var(--body-text);
 }
+
+.title {
+  font-family: var(--body-text);
+  font-size: 3vw;
+}
+
+.subtitle {
+color: var(--off-white);
+}
+
+/*----- NAVBAR STYLES -----*/
+
+.navbar-toggler {
+  position: absolute;
+  /* not working at the moment */
+  color: var(--off-white)
+}
+
+/*----- CAROUSEL STYLES -----*/
 
 .carousel-inner {
     display: flex;
@@ -126,6 +180,8 @@ select {
   box-sizing: border-box;
   border: 1px solid #d9534f; 
   border-radius: 5px;
+  border: 1px solid #d9534f; 
+  border-radius: 5px;
 }
 
 input[type="submit"] {
@@ -151,7 +207,9 @@ select {
 /* Optional: Add festive styles to the dropdown */
 select:focus {
   border-color: #d9534f; /* Red border on focus */
-  box-shadow: 0 0 5px #DD0426; /* Red box-shadow on focus */
+
+  box-shadow: 0 0 5px #d9534f; /* Red box-shadow on focus */
+
 }
 
   /*----- FOOTER -----*/
