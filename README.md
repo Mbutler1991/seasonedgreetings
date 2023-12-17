@@ -22,7 +22,7 @@ This project was created as part of the December 2023 Code Institute Hackathon: 
 
 For the December hackathon, each team participating was given a project theme by random. The Six Seasons team drew the theme recipe sharing site. For this hackathon we were given the brief of creating a project utilising only frontend technology.
 
-➡️ Problem Statement: As a user I want to be able to search recipes with a powerful filtering capacity to accomodate my preferences.
+➡️ Problem Statement: As a user I want to be able to search recipes with a powerful filtering capacity to accommodate my preferences.
 
 ➡️ Objective(s): The main objective is to create a website that allows users to search for holiday recipes.  
 
@@ -40,7 +40,7 @@ We decided on a vibrant color palette for our site, being mindful to choose colo
 
 ### Typography
 
-Typography was chosen to be fun, but also with accessility in mind. We chose to use Sacramento for the headings only, due to it being a cursive styled font, and Raleway for the body text on the site. This is a sans-serif font that is very accessible.
+Typography was chosen to be fun, but also with accessibility in mind. We chose to use Sacramento for the headings only, due to it being a cursive styled font, and Raleway for the body text on the site. This is a sans-serif font that is very accessible.
 
 ![Sacremento Font](documentation/sacramento-font.png)
 ![Raleway Font](documentation/raleway-font.png)
@@ -157,7 +157,7 @@ Special thanks to Kasia Bogucka, our team facilitator.
 
 ## Acknowledgements
 
-A huge thank you to the Code Institute Hackathon Team and the community team for providing these amazing opportunities for us to particate collaboratively with others.
+A huge thank you to the Code Institute Hackathon Team and the community team for providing these amazing opportunities for us to participate collaboratively with others.
 
 ## 🌍 Join the Festivities
 
