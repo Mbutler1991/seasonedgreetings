@@ -52,10 +52,10 @@ We have gone through each page using google chrome developer tools & Firefox ins
 
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
-* [script.js]()
-* [cracker.js]()
-* [api.js]()
-* [search.js]()
+* [script.js](documentation/testing/script-validation.png) - Pass
+* [cracker.js](documentation/testing/cracker-validation.png) - Pass
+* [api.js](documentation/testing/api-validation.png) - Pass
+* [search.js](documentation/testing/search-validation.png) - Pass (One unused variable)
 
 - - -
 
