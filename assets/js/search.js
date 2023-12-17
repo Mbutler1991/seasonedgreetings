@@ -8,6 +8,7 @@ function searchRecipes(query) {
 
 
             if (data.meals) {
+                container.innerHTML = '<h1>Search results:</h1>';
                 data.meals.forEach(meal => {
                     const recipe = {
                         name: meal.strMeal,
@@ -30,6 +31,7 @@ function searchRecipes(query) {
     }
 
                     const html = `
+                    
                     <div class="card gap-3">
                         <img src="${recipe.image}" class="card-img-top" alt="${recipe.name}">
                         <div class="card-body gap-3">
