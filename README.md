@@ -69,13 +69,15 @@ Wireframes were utilised to allow the team to work cohesively with the same visi
 
 ## Features
 
-Seasoned Greetings is comprised of ... pages: the home page, favourites page, team page, contact page, thank you page, 404 page and 500 page.
+Seasoned Greetings is comprised of 7 pages: the home page, favourites page, team page, contact page, thank you page, 404 page and 500 page.
 
 Each page of the site has a favicon, a nav and footer^ and uses the same background image.
 
 ### Favicon
 
-image of favicon here
+The favicon was created using [favicon.io](https://favicon.io).
+
+![Seasoned Greetings Favicon](documentation/favicon.png)
 
 ### Navbar
 
@@ -86,6 +88,34 @@ image of navbar here
 image of footer here
 
 *^ The 404 and 500 pages do not have the nav and footer, due to issues with implementing the cracker with the bootstrap CDN included. Instead, a button to return to the home page has been included. This is something that we would like to look at during the next implementation of the site, as we feel that having the same nav and footer throughout the site improves the user experience of the site.*
+
+### Home Page
+
+![]()
+
+### Favourites Page
+
+![]()
+
+### Meet the Team Page
+
+![]()
+
+### Contact Page
+
+![]()
+
+### Thank You Page
+
+![]()
+
+### 404 Page
+
+![]()
+
+### 500 Page
+
+![]()
 
 ## Future Implementations
 
