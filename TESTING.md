@@ -65,12 +65,9 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 
 #### Desktop Results
 
+* [Favourites Page](documentation/testing/favourites-dt-lh.png)
 
 #### Mobile Results
-
-- - -
-
-### WAVE Testing
 
 - - -
 
