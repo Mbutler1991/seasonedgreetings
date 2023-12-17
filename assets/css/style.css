@@ -22,14 +22,18 @@
 }
 
 
-/* Carousel  */
+/* General margin for navbar  */
 
 
 .margin-container {
   margin-top: 500px;
 }
 
+.team-container {
+  margin-top: 100px;
+}
 
+/* Carousel */
 
 .border-carousel {
   border: 3px solid var(--light-grey);
@@ -82,7 +86,7 @@ p {
 
 .title {
   font-family: var(--body-text);
-  font-size: 3vw;
+  color: var(--off-white)
 }
 
 .subtitle {
@@ -159,15 +163,6 @@ input[type="file"] {
   margin-bottom: 15px; 
 }
 
-.custom-file-upload {
-  background-color: darkgreen;
-  color: white;
-  padding: 10px;
-  border: 1px solid darkgreen;
-  border-radius: 5px;
-  cursor: pointer;
-  display: inline-block;
-}
 
 /* Optional: Style the file input button on hover */
 .custom-file-upload:hover {

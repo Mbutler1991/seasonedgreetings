@@ -38,6 +38,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
   <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Stylesheets -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -86,17 +87,17 @@
 
   <!-- team profiles -->
   <!-- Credits: https://webdesignerwall.com/wdw-snippet/bootstrap-4-our-team-section-with-round-profile-images -->
-  <div class="container mx-auto mt-5 col-md-8 mt-100">
-    <div class="header text-center">
-      <div class="title">Meet the team!</div>
-      <p><small class="text-muted">The folks behind the seasoned magic.</p>
+  <div class="container col-md-8">
+    <div class="text-center team-container">
+      <h1 class="title">Meet the team!</h1>
+      <p><small class="text-white">The folks behind the seasoned magic.</p>
     </div>
     <!-- Mark Butler -->
     <div class="row justify-content-center pb-5">
-      <div class="card mt-100 text-center">
+      <div class="card text-center">
         <div class="card-content">
           <div class="card-body p-10">
-            <div class="profile mt-100"> <img class="img-fluid col-8 col-sm-3 rounded-circle"
+            <div class="profile"> <img class="img-fluid col-8 col-sm-3 rounded-circle"
                 src="assets/images/team-profiles/mark-butler.jpg"> </div>
             <div class="card-title mt-4">Mark Butler<br /> <small>Scrum Master</small> </div>
             <div class="card-subtitle">
@@ -118,9 +119,9 @@
     </div>
     <!-- Caylin Dewey -->
     <div class="row justify-content-center pb-5">
-      <div class="card mt-100 text-center">
+      <div class="card text-center">
         <div class="card-content">
-          <div class="card-body p-10">
+          <div class="card-body">
             <div class="profile"> <img class="img-fluid col-8 col-sm-3 rounded-circle"
                 src="assets/images/team-profiles/caylin-dewey.jpg"> </div>
             <div class="card-title mt-4">Caylin Dewey<br /> <small>Team Member</small> </div>
@@ -140,7 +141,7 @@
     </div>
     <!-- Emily Rosenberg -->
     <div class="row justify-content-center pb-5">
-      <div class="card mt-100 text-center">
+      <div class="card text-center">
         <div class="card-content">
           <div class="card-body p-10">
             <div class="profile"> <img class="img-fluid col-8 col-sm-3 rounded-circle"
@@ -207,9 +208,9 @@
     </div>
     <!-- Yakiv Brychuk -->
     <div class="row justify-content-center pb-5">
-      <div class="card mt-100 text-center">
+      <div class="card text-center">
         <div class="card-content">
-          <div class="card-body p-10">
+          <div class="card-body">
             <div class="profile"> <img class="img-fluid col-8 col-sm-3 rounded-circle"
                 src="assets/images/team-profiles/yakiv-brychuk.jpg"> </div>
             <div class="card-title mt-4"> Yakiv Brychuk <br /> <small>Team Member</small> </div>
@@ -233,16 +234,47 @@
   <!-- end of team profiles -->
 
 
-  <footer>
-    <div class="social-media">
-      <a href="https://twitter.com/" class="fa fa-twitter"></a>
-      <a href="https://linkedin.com" class="fa fa-linkedin"></a>
-      <a href="https://facebook.com" class="fa fa-facebook"></a>
-      <a href="https://instagram.com" class="fa fa-instagram"></a>
-      <div class="copyright">
-        Copyright &copy; <a href="meet_the_team">Meet the Team</a>
+  <!-- footer -->
+
+  <!-- Credit: https://mdbootstrap.com/docs/standard/navigation/footer/ -->
+  <footer class="footer w-100 text-center text-lg-start" style="background-color: #DD0426">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <h3>Seasoned Greetings 🍒</h3>
+        <p>
+          <span class="opacity-50">Copyright &copy 2023</span>
+          <a href="team.html" class="text-decoration-none meet-text">Meet the Team</a>
+        </p>
       </div>
-    </div>
+      <!-- end of Left -->
+
+      <!-- Right -->
+      <div class="social-links">
+        <a href="https://www.facebook.com/" target="_blank" class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-facebook-f fa-2x social-icon"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank" class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-twitter fa-2x social-icon"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-instagram fa-2x social-icon"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-linkedin fa-2x social-icon"></i>
+        </a>
+        <a href="https://github.com/Mbutler1991/seasonedgreetings" target="_blank"
+          class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-github fa-2x social-icon"></i>
+        </a>
+      </div>
+      <!-- end of Right -->
+
+    </section>
+    <!-- end of Section: Social media -->
+
   </footer>
 
   <!-- Scripts -->

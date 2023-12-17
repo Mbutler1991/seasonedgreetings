@@ -6,8 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow">
-  <meta name="keywords" content="Recipes, Find a recipe, Holidays, Christmas, Hanukkah, Winter Solstice, Yule, Kwanza, Bodhi Day">
-  <meta name="description" content="Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season! Contact the Seasoned Greetings team using the contact form">
+  <meta name="keywords"
+    content="Recipes, Find a recipe, Holidays, Christmas, Hanukkah, Winter Solstice, Yule, Kwanza, Bodhi Day">
+  <meta name="description"
+    content="Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season! Contact the Seasoned Greetings team using the contact form">
   <meta name="url" content="https://mbutler1991.github.io/seasonedgreetings/contact.html">
 
 
@@ -15,7 +17,8 @@
   <!-- Facebook, LinkedIn, Google -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Seasoned Greetings">
-  <meta property="og:description" content="Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season! Contact the Seasoned Greetings team using the contact form">
+  <meta property="og:description"
+    content="Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season! Contact the Seasoned Greetings team using the contact form">
   <meta name="image" property="og:image" content="URL TO IMAGE">
   <meta property="og:image:alt" content="Seasoned Greetings Website shown on a variety of Devices">
   <meta property="og:url" content="https://mbutler1991.github.io/seasonedgreetings/contact.html">
@@ -24,7 +27,8 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Seasoned Greetings - Contact Us">
-  <meta name="twitter:description" content="Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season! Contact the Seasoned Greetings team using the contact form">
+  <meta name="twitter:description"
+    content="Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season! Contact the Seasoned Greetings team using the contact form">
   <meta name="twitter:image" content="URL TO IMAGE">
   <meta name="twitter:image:alt" content="Seasoned Greetings Website shown on a variety of Devices">
 
@@ -35,47 +39,45 @@
   <link rel="manifest" href="assets/images/favicons/site.webmanifest">
 
   <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <title>Seasoned Greetings - Contact Us</title>
 
 </head>
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar">
-    <div class="d-flex container-fluid flex-column">
-      <h1 class="d-lg-block d-sm-none mx-auto"><a href="index.html" class="text-black text-decoration-none">Seasoned
+  <nav class="navbar fixed-top" style="background-color: #DD0426">
+    <span class="mx-auto d-flex">
+      <h1><a href="index.html" class="text-reset text-decoration-none text-center">Seasoned
           Greetings</a>
       </h1>
-      <h2 class="mx-auto">Hello</h2>
-      <button class="navbar-toggler navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    </span>
+    <button class="navbar-toggler navbar-dark border-0" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container-fluid">
+
+      <h2 class="subtitle mx-auto m-3">All the best recipes for your holiday feast!</h2>
     </div>
+
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <div class="d-flex flex-column gap-2 align-items-center">
-        
         <a class="navbar-brand d-lg-none mx-auto" href="index.html">Seasoned
           Greetings</a>
-        <a class="nav-link" href="index.html">Home</a>
-        <a class="nav-link" href="favourites.html">Favourites</a>
-        <a class="nav-link" href="team.html">Meet the Team</a>
-        <a class="nav-link active" href="contact.html">Contact</a>
-
+        <a class="nav-link text-white active" href="index.html">Home</a>
+        <a class="nav-link text-white" href="favourites.html">Favourites</a>
+        <a class="nav-link text-white" href="team.html">Meet the Team</a>
+        <a class="nav-link text-white" href="contact.html">Contact</a>
       </div>
     </div>
   </nav>
-    </div>
-    <div class="input-group w-75 mx-auto">
-      <input type="search" class="form-control rounded" placeholder="Find a Recipe..." aria-label="Recipe Search Bar"
-        aria-describedby="search-addon" />
-      <button type="button" class="btn btn-outline-primary" id="search" data-mdb-ripple-init>search</button>
-    </div>
-  </nav>
-  
+
   <!-- Contact Page -->
   <div class="contact-body">
     <div class="contact-container">
@@ -84,13 +86,13 @@
         </h2>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email" placeholder="Email" required>
 
         <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" required>
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
 
         <div class="file-upload-container">
-          <label for="file" class="custom-file-upload">Choose File</label>
+          <label for="file" class="btn btn-outline-light h-50 m-1 search-button">Choose File</label>
           <input type="file" id="file" name="file" accept=".pdf, .doc, .docx, .jpg, .jpeg, .png">
         </div>
 
@@ -105,26 +107,62 @@
         </select>
 
         <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+        <textarea id="message" name="message" rows="4" placeholder="Message..." required></textarea>
 
-        <input type="submit" value="Submit">
+        <button class="search-button btn btn-outline-light w-100" type="submit" action="thankyou.html">Submit</button>
       </form>
     </div>
   </div>
 
 
-<footer>
-  <div class="social-media">
-    <a href="https://twitter.com/" class="fa fa-twitter"></a>
-    <a href="https://linkedin.com" class="fa fa-linkedin"></a>
-    <a href="https://facebook.com" class="fa fa-facebook"></a>
-    <a href="https://instagram.com" class="fa fa-instagram"></a>
-    <div class="copyright">
-      Copyright &copy; <a href="meet_the_team">Meet the Team</a>
-    </div>
-  </div>
-</footer>
+  <!-- footer -->
 
+  <!-- Credit: https://mdbootstrap.com/docs/standard/navigation/footer/ -->
+  <footer class="footer w-100 text-center text-lg-start" style="background-color: #DD0426">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <h3>Seasoned Greetings 🍒</h3>
+        <p>
+          <span class="opacity-50">Copyright &copy 2023</span>
+          <a href="team.html" class="text-decoration-none meet-text">Meet the Team</a>
+        </p>
+      </div>
+      <!-- end of Left -->
+
+      <!-- Right -->
+      <div class="social-links">
+        <a href="https://www.facebook.com/" target="_blank" class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-facebook-f fa-2x social-icon"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank" class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-twitter fa-2x social-icon"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-instagram fa-2x social-icon"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-linkedin fa-2x social-icon"></i>
+        </a>
+        <a href="https://github.com/Mbutler1991/seasonedgreetings" target="_blank"
+          class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-github fa-2x social-icon"></i>
+        </a>
+      </div>
+      <!-- end of Right -->
+
+    </section>
+    <!-- end of Section: Social media -->
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
