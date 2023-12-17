@@ -24,8 +24,7 @@
 /*----- BACKGROUND STYLES -----*/
 
 body {
-  background-color: var(--off-white);
-  background-image: url("../images/background.jpg");
+  background-image: url("/assets/images/background.jpg");
 }
 
 .card {
@@ -78,7 +77,15 @@ color: var(--off-white);
 .navbar-toggler {
   position: absolute;
   /* not working at the moment */
-  color: var(--off-white)
+  color: var(--off-white);
+}
+
+.social-icon {
+  color: var(--off-white);
+}
+
+.search-button {
+  background-color: var(--dark-grey);
 }
 
 /*----- CAROUSEL STYLES -----*/
@@ -126,6 +133,7 @@ body > footer {
   justify-content: center;
   min-height: 100vh;
   background: url('../images/background.jpg') center/cover no-repeat fixed;
+  background: url('../images/background.jpg') center/cover no-repeat fixed;
 }
 
 .contact-container {
@@ -143,7 +151,8 @@ body > footer {
 label {
   display: block;
   margin-top: 10px;
-  color: var(--dark-red); 
+  color: #d9534f; 
+  color: #d9534f; 
 }
 
 input[type="file"] {
@@ -156,10 +165,10 @@ input[type="file"] {
 }
 
 .custom-file-upload {
-  background-color: var(--green);
-  color: var(--white);
+  background-color: darkgreen;
+  color: white;
   padding: 10px;
-  border: 1px solid var(--green);
+  border: 1px solid darkgreen;
   border-radius: 5px;
   cursor: pointer;
   display: inline-block;
@@ -167,7 +176,7 @@ input[type="file"] {
 
 /* Optional: Style the file input button on hover */
 .custom-file-upload:hover {
-  background-color: var(--dark-red);
+  background-color: #DD0426;
 }
 
 input,
@@ -178,20 +187,22 @@ select {
   margin-top: 5px;
   margin-bottom: 10px;
   box-sizing: border-box;
-  border: 1px solid var(--dark-red); 
+  border: 1px solid #d9534f; 
   border-radius: 5px;
-  border: 1px solid var(--dark-red); 
+  border: 1px solid #d9534f; 
+  border-radius: 5px;
+  border: 1px solid #d9534f; 
   border-radius: 5px;
 }
 
 input[type="submit"] {
-  background-color: var(--green); 
-  color: var(--white);
+  background-color: #5cb85c; 
+  color: white;
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: var(--dark-red); 
+  background-color: #4cae4c; 
 }
 
 /* Additional styling for select dropdown */
@@ -206,36 +217,9 @@ select {
 
 /* Optional: Add festive styles to the dropdown */
 select:focus {
-  border-color: var(--dark-red); /* Red border on focus */
-
-  box-shadow: 0 0 5px var(--dark-red); /* Red box-shadow on focus */
-
+  border-color: #d9534f; /* Red border on focus */
+  box-shadow: 0 0 5px #d9534f; /* Red box-shadow on focus */
 }
-
-  /*----- FOOTER -----*/
-
-  .footer{
-    background-color: var(--light-grey);
-    padding: 10px;
-    text-align: center;
-    color: var(--white);
-    width: 100%;
-  }
-  .footer .social-media {
-    list-style: none;
-    padding: 0;
-    display: inline-flex;
-    gap:10px;
-    border-radius: 10%;
-  }
-  .footer .social-media li {
-    display: inline;
-  }
-  .footer .social-media a {
-    color: var(--off-white);
-    text-decoration: none;
-    font-size: 20px;
-  }
 
 /* Media query for responsiveness */
 @media screen and (max-width: 600px) {
