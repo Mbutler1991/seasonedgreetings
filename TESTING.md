@@ -95,5 +95,28 @@ Additional testing was taken by friends and family on a variety of devices and s
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
+| `Navbar` | | | | |
+| Site Name | When clicked, the user is taken to the home page | Clicked site name | Taken to the home page | Pass |
+| Toggle icon | When clicked the menu will drop down, if the menu is open, clicking will close the menu | Clicked icon when menu closed, and then when open | The menu dropdown displayed, and then closed | Pass |
+| Navbar Links | Each link when clicked takes the user to that page | Clicked each link | Taken to the correct page | Pass |
+| Search bar| When the user inputs a search term and clicks the search button, results are displayed on the page. If there are no results, the user is given feedback to let them know this | Searched for turkey and searched for ... | Result for turkey meatloaf displayed.| Pass |
+||||||
+| `Footer` |||||
+| Meet the team link | When clicked, the user is redirected to the Meet the Team page | Clicked link | Taken to the meet the team page | Pass |
+| Social Icons | When each icon is clicked, the user is taken to their website in a new tab | Clicked icons | Taken to the sites website in a new tab | Pass |
+||||||
 | `Home Page` |
-| --- | --- | --- | --- | --- |
+| Carousel | Users can use the left/right arrows to view items in the carousel | Clicked left/right arrows | Carousel displays next item | Pass |
+| Carousel see recipe button | Users can click the see recipe button and the recipe will be displayed in a pop up modal | Clicked button | Modal popped up with the recipe instructions | Pass |
+| Close modal button | Users can click this button and the modal will close | clicked close button | Modal closed | Pass |
+||||||
+| `Meet the Team` |||||
+| Team Social Links | Users can click on the linkedin or github links on each team members card and they will be taken to the team members linkedin or github page in a new tab | Clicked links | New tab with users linkedin/github opened | Pass |
+||||||
+| `Contact` |||||
+| Submit completed contact form | User is able to submit contact form if fields are filled out | Submit completed contact form | Taken to thank you page | Pass |
+| Submit empty form | If the user tries to submit an empty contact form, they will be prompted by tooltips to complete required fields | Submit form with no fields completed | Tooltip displayed asking user to fill in required fields | Pass |
+||||||
+||||||
+| `404 and 500 pages` |||||
+| Go back home button | When the user clicks on the button, they are returned to the home page | Clicked button | Returned to home page | Pass |
