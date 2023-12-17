@@ -14,7 +14,6 @@ Visit the deployed site: [Seasoned Greetings](https://mbutler1991.github.io/seas
   * [Lighthouse](#lighthouse)
   * [WAVE Testing](#wave-testing)
 * [MANUAL TESTING](#manual-testing)
-  * [Testing User Stories](#testing-user-stories)
   * [Full Testing](#full-testing)
 
 Testing was ongoing throughout the entire build. We utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as we went along.
@@ -33,9 +32,19 @@ We have gone through each page using google chrome developer tools & Firefox ins
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
+#### HTML
+
 * [Home Page]()
+* [Favourites Page]()
+* [Team Page]()
+* [Contact Page]()
+* [Thank You Page]()
 * [404 Page]()
-* [CSS]()
+
+#### CSS
+
+* [style.css]()
+* [cracker.css]()
 
 - - -
 
@@ -43,7 +52,10 @@ We have gone through each page using google chrome developer tools & Firefox ins
 
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
-* 
+* [script.js]()
+* []()
+* []()
+* []()
 
 - - -
 
@@ -63,25 +75,6 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 - - -
 
 ## MANUAL TESTING
-
-### Testing User Stories
-
-`First Time Visitors`
-
-| Goals | How are they achieved? |
-| :--- | :--- |
-
-`Returning Visitors`
-
-|  Goals | How are they achieved? |
-| :--- | :--- |
-
-`Frequent Visitors`
-
-| Goals | How are they achieved? |
-| :--- | :--- |
-
-- - -
 
 ### Full Testing
 
