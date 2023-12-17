@@ -1,5 +1,5 @@
 /*----- Google font import -----*/
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,300;0,400;0,700;0,900;1,900&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;0,900;1,900&family=Sacramento&display=swap');
 
 
 /*----- ROOT VARIABLES -----*/
@@ -7,7 +7,6 @@
 
     /*-- Typography Variables --*/
     --heading-text: 'Sacramento', cursive;
-    --heading-text-2: font-family: 'Great Vibes', cursive;
     --body-text: font-family: 'Raleway', sans-serif;
     
     /*-- Color Variables --*/
