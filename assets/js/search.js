@@ -8,7 +8,7 @@ function searchRecipes(query) {
 
 
             if (data.meals) {
-                container.innerHTML = '<h1>Search results:</h1>';
+                container.innerHTML = '<h3 class="h1">Search results:</h3>';
                 data.meals.forEach(meal => {
                     const recipe = {
                         name: meal.strMeal,
