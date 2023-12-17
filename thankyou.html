@@ -45,47 +45,15 @@
 </head>
 
 <body>
-  <header>
-    <h1>Seasoned Greetings</h1>
-
-    <!-- Navbar -->
-    <nav class="navbar">
-      <div class="d-flex container-fluid flex-column">
-        <h1 class="d-lg-block d-sm-none mx-auto"><a href="index.html" class="text-black text-decoration-none">Seasoned
-            Greetings</a>
-        </h1>
-        <h2 class="mx-auto">Hello</h2>
-        <button class="navbar-toggler navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <div class="d-flex flex-column gap-2 align-items-center">
-          <a class="navbar-brand d-lg-none mx-auto" href="#">Seasoned Greetings</a>
-
-          <a class="nav-link" href="index.html">Home</a>
-          <a class="nav-link" href="favourites.html">Favourites</a>
-          <a class="nav-link" href="team.html">Meet the Team</a>
-          <a class="nav-link" href="contact.html">Contact</a>
-        </div>
-      </div>
-      <div class="input-group w-75 mx-auto">
-        <input type="search" class="form-control rounded" placeholder="Find a Recipe..." aria-label="Recipe Search Bar">
-        <input type="search" class="form-control rounded" placeholder="Find a Recipe..." aria-label="Recipe Search Bar">
-        <button type="button" class="btn btn-outline-primary" id="search" data-mdb-ripple-init>search</button>
-      </div>
+  
     </nav>
     <!-- end of Navbar -->
 
   </header>
-  <div class="bg-image" style="background-image: url('assets/images/background.jpg');
-              height: 100vh">
     <main>
       <div id="ty" class="text-center">
         <br>
-        <div class="bg-light w-75 mx-auto">
+        <div class="bg-danger w-75 mx-auto">
           <h1 id="ty2">Thank You</h1>
           <p>Thank you for your messages, we appreciate all feedback good or bad, we aim to get back to you as quickly as
             possible but as we are voluntary run we don't always have people watching for messages'</p>
@@ -96,16 +64,50 @@
       </div> <br>
     </main>
   </div>
-  <footer>
-    <div class="social-media">
-      <a href="https://twitter.com/" class="fa fa-twitter"></a>
-      <a href="https://linkedin.com" class="fa fa-linkedin"></a>
-      <a href="https://facebook.com" class="fa fa-facebook"></a>
-      <a href="https://instagram.com" class="fa fa-instagram"></a>
-      <div class="copyright">
-        Copyright &copy; <a href="meet_the_team">Meet the Team</a>
+  <!-- footer -->
+
+  <!-- Credit: https://mdbootstrap.com/docs/standard/navigation/footer/ -->
+  <footer class="footer w-100 text-center text-lg-start" style="background-color: #DD0426">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <h3>Seasoned Greetings 🍒</h3>
+        <p>
+          <span class="opacity-50">Copyright &copy 2023</span>
+          <a href="team.html" class="text-decoration-none meet-text">Meet the Team</a>
+        </p>
       </div>
-    </div>
+      <!-- end of Left -->
+
+
+      <!-- Right -->
+      <div class="social-links">
+        <a href="https://www.facebook.com/" target="_blank" class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-facebook-f fa-2x social-icon"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank" class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-twitter fa-2x social-icon"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-instagram fa-2x social-icon"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-linkedin fa-2x social-icon"></i>
+        </a>
+        <a href="https://github.com/Mbutler1991/seasonedgreetings" target="_blank"
+          class="me-4 text-reset text-decoration-none">
+        <a href="https://github.com/Mbutler1991/seasonedgreetings" target="_blank"
+          class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-github fa-2x social-icon"></i>
+        </a>
+      </div>
+      <!-- end of Right -->
+
+    </section>
+    <!-- end of Section: Social media -->
+
   </footer>
 
   <!-- Scripts -->

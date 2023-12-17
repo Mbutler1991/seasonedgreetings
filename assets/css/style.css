@@ -41,7 +41,7 @@
 
 
 body {
-  background-image: url("/assets/images/background.jpg");
+  background: url("../images/background.jpg") no-repeat center center fixed;
 }
 
 .card {
