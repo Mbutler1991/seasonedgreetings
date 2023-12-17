@@ -44,7 +44,6 @@
       <button type="button" class="btn btn-outline-primary" id="search" data-mdb-ripple-init>search</button>
     </div>
   </nav>
-  <!-- end of Navbar -->
 
   <div class="contact-body">
     <div class="contact-container">
@@ -58,9 +57,10 @@
         <label for="phone">Phone Number:</label>
         <input type="tel" id="phone" name="phone" required>
 
-        <label for="file">Upload File:</label>
-        <input type="file" id="file" name="file" accept=".pdf, .doc, .docx, .jpg, .jpeg, .png">
-        <label for="file" class="custom-file-upload">Upload File</label>
+        <div class="file-upload-container">
+          <label for="file" class="custom-file-upload">Choose File</label>
+          <input type="file" id="file" name="file" accept=".pdf, .doc, .docx, .jpg, .jpeg, .png">
+        </div>
 
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="4" required></textarea>
