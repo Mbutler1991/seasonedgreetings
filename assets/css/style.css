@@ -21,7 +21,22 @@
     --green: #006400;
 }
 
+
+/* Carousel  */
+
+
+.carousel-margin {
+  margin-top: 500px;
+}
+
+.border-carousel {
+  border: 3px solid var(--light-grey);
+  border-color: var(--light-grey);
+  box-shadow: 1px 3px 25px 1px hsl(241, 100%, 89%);
+}
+
 /*----- BACKGROUND STYLES -----*/
+
 
 body {
   background-image: url("/assets/images/background.jpg");
@@ -74,10 +89,6 @@ color: var(--off-white);
 
 /*----- NAVBAR STYLES -----*/
 
-.navbar-toggler {
-  position: absolute;
-}
-
 .social-icon {
   color: var(--off-white);
 }
@@ -86,32 +97,6 @@ color: var(--off-white);
   background-color: var(--dark-grey);
 }
 
-/*----- CAROUSEL STYLES -----*/
-
-.carousel-inner {
-    display: flex;
-  }
-  .carousel-item {
-    flex: 0 0 auto;
-    width: 100%; /* Adjust as needed */
-  }
-
-  .carousel-control-prev {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 5%;
-  }
-
-  .carousel-control-next {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    width: 5%;
-  }
-  
   html, body {
     height: 100%;
 }
@@ -121,6 +106,16 @@ body > footer {
     top: 100vh;
 }
 
+
+/* Footer styles */
+
+.meet-text {
+  color: var(--black)
+}
+
+.meet-text:hover {
+  color: var(--off-white)
+}
 
 /* ----- CONTACT PAGE -----*/
 .contact-body {
