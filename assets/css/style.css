@@ -40,13 +40,13 @@ body {
 
 h1 {
     font-family: var(--heading-text);
-    font-size: 6vw;
+    font-size: 5rem;
     color: var(--off-white);
 }
 
 h2 {
     font-family: var(--body-text);
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 
 h3 {
@@ -76,8 +76,6 @@ color: var(--off-white);
 
 .navbar-toggler {
   position: absolute;
-  /* not working at the moment */
-  color: var(--off-white);
 }
 
 .social-icon {
