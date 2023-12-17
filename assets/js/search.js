@@ -1,32 +1,48 @@
 // Fetches recipes from the API and displays them in the DOM.
-function searchRecipes(query, page = 1) {
+function searchRecipes(query) {
     fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`)
         .then(response => response.json())
         .then(data => {
             const container = document.getElementById('recipe-container');
             container.innerHTML = '';
 
+
             if (data.meals) {
-                // Calculate start and end indices for slicing the meals array
-                const startIndex = (page - 1) * 5;
-                const endIndex = startIndex + 5;
+                data.meals.forEach(meal => {
+                    const recipe = {
+                        name: meal.strMeal,
+                        category: meal.strCategory,
+                        instructions: meal.strInstructions,
+                        image: meal.strMealThumb,
+                        ingredients: []
+                    };
 
-                // Slice the meals array to get only the recipes for the current page
-                const meals = data.meals.slice(startIndex, endIndex);
+                                    for (let i = 1; i <= 20; i++) {
+        const ingredient = meal[`strIngredient${i}`];
+        const measure = meal[`strMeasure${i}`];
 
-                meals.forEach(recipe => {
-                    const recipeElement = document.createElement('div');
-                    recipeElement.classList.add('recipe');
+        if (ingredient && ingredient !== "" && measure && measure !== "") {
+            recipe.ingredients.push({
+                ingredient: ingredient,
+                measure: measure
+            });
+        }
+    }
 
-                    const titleElement = document.createElement('h2');
-                    titleElement.textContent = recipe.strMeal;
-                    recipeElement.appendChild(titleElement);
+                    const html = `
+                    <div class="card gap-3">
+                        <img src="${recipe.image}" class="card-img-top" alt="${recipe.name}">
+                        <div class="card-body gap-3">
+                            <h5 class="card-title">${recipe.name}</h5>
+                            <p class="card-text">${recipe.instructions}</p>
+            <ul>
+              ${recipe.ingredients.map(ingredient => `<li>${ingredient.ingredient} - ${ingredient.measure}</li>`).join('')}
+            </ul>                     
+                        </div>
+                    </div>
+                    `;
 
-                    const imageElement = document.createElement('img');
-                    imageElement.src = recipe.strMealThumb;
-                    recipeElement.appendChild(imageElement);
-
-                    container.appendChild(recipeElement);
+                    container.innerHTML += html;
                 });
             } else {
                 container.innerHTML = 'No recipes found.';
