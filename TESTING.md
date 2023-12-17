@@ -53,9 +53,9 @@ We have gone through each page using google chrome developer tools & Firefox ins
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
 * [script.js]()
-* []()
-* []()
-* []()
+* [cracker.js]()
+* [api.js]()
+* [search.js]()
 
 - - -
 
