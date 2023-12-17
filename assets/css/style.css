@@ -1,5 +1,5 @@
 /*----- Google font import -----*/
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,300;0,400;0,700;0,900;1,900&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;0,900;1,900&family=Sacramento&display=swap');
 
 
 /*----- ROOT VARIABLES -----*/
@@ -7,8 +7,7 @@
 
     /*-- Typography Variables --*/
     --heading-text: 'Sacramento', cursive;
-    --heading-text-2: font-family: 'Great Vibes', cursive;
-    --body-text: font-family: 'Raleway', sans-serif;
+    --body-text: 'Raleway', sans-serif;
     
     /*-- Color Variables --*/
     --black: #000000;
@@ -19,13 +18,14 @@
     --light-grey: #9197AE;
     --light-red: #F02D3A;
     --dark-red: #DD0426;
+    --green: #006400;
 }
 
 /*----- BACKGROUND STYLES -----*/
 
 body {
   background-color: var(--off-white);
-  background-image: url("/assets/images/background.jpg");
+  background-image: url("../images/background.jpg");
 }
 
 .card {
@@ -143,7 +143,7 @@ body > footer {
 label {
   display: block;
   margin-top: 10px;
-  color: #d9534f; 
+  color: var(--dark-red); 
 }
 
 input[type="file"] {
@@ -156,10 +156,10 @@ input[type="file"] {
 }
 
 .custom-file-upload {
-  background-color: darkgreen;
-  color: white;
+  background-color: var(--green);
+  color: var(--white);
   padding: 10px;
-  border: 1px solid darkgreen;
+  border: 1px solid var(--green);
   border-radius: 5px;
   cursor: pointer;
   display: inline-block;
@@ -167,7 +167,7 @@ input[type="file"] {
 
 /* Optional: Style the file input button on hover */
 .custom-file-upload:hover {
-  background-color: #DD0426;
+  background-color: var(--dark-red);
 }
 
 input,
@@ -178,47 +178,47 @@ select {
   margin-top: 5px;
   margin-bottom: 10px;
   box-sizing: border-box;
-  border: 1px solid #d9534f; 
+  border: 1px solid var(--dark-red); 
   border-radius: 5px;
-  border: 1px solid #d9534f; 
+  border: 1px solid var(--dark-red); 
   border-radius: 5px;
 }
 
 input[type="submit"] {
-  background-color: darkgreen; 
-  color: white;
+  background-color: var(--green); 
+  color: var(--white);
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: #DD0426; 
+  background-color: var(--dark-red); 
 }
 
 /* Additional styling for select dropdown */
 select {
   appearance: none;
-  background: url('../images/angle-down-solid.svg') no-repeat right center/15px #fff; 
+  background: url('../images/angle-down-solid.svg') no-repeat right center/15px var(--white); 
   padding-right: 30px; 
   background-position-x: calc(100% - 10px); 
-  border: 1px solid #d9534f; 
+  border: 1px solid var(--dark-red); 
   border-radius: 5px;
 }
 
 /* Optional: Add festive styles to the dropdown */
 select:focus {
-  border-color: #d9534f; /* Red border on focus */
+  border-color: var(--dark-red); /* Red border on focus */
 
-  box-shadow: 0 0 5px #d9534f; /* Red box-shadow on focus */
+  box-shadow: 0 0 5px var(--dark-red); /* Red box-shadow on focus */
 
 }
 
   /*----- FOOTER -----*/
 
   .footer{
-    background-color: #9197AE;
+    background-color: var(--light-grey);
     padding: 10px;
     text-align: center;
-    color: white;
+    color: var(--white);
     width: 100%;
   }
   .footer .social-media {
@@ -232,7 +232,7 @@ select:focus {
     display: inline;
   }
   .footer .social-media a {
-    color: #EFF6EE;
+    color: var(--off-white);
     text-decoration: none;
     font-size: 20px;
   }
