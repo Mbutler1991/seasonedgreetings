@@ -65,9 +65,23 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 
 #### Desktop Results
 
+* [Home Page](documentation/testing/home-dt-lh.png)
 * [Favourites Page](documentation/testing/favourites-dt-lh.png)
+* [Meet the Team Page](documentation/testing/team-dt-lh.png)
+* [Contact Page](documentation/testing/contact-dt-lh.png)
+* [Thank You Page](documentation/testing/thankyou-dt-lh.png)
+* [404 Page](documentation/testing/404-dt-lh.png)
+* [500 Page](documentation/testing/500-dt-lh.png)
 
 #### Mobile Results
+
+* [Home Page](documentation/testing/home-mb-lh.png)
+* [Favourites Page](documentation/testing/favourites-mb-lh.png)
+* [Meet the Team Page](documentation/testing/team-mb-lh.png)
+* [Contact Page](documentation/testing/contact-mb-lh.png)
+* [Thank You Page](documentation/testing/thankyou-mb-lh.png)
+* [404 Page](documentation/testing/404-mb-lh.png)
+* [500 Page](documentation/testing/500-mb-lh.png)
 
 - - -
 
@@ -117,3 +131,9 @@ Additional testing was taken by friends and family on a variety of devices and s
 ||||||
 | `404 and 500 pages` |||||
 | Go back home button | When the user clicks on the button, they are returned to the home page | Clicked button | Returned to home page | Pass |
+
+## Bugs
+
+### Known Bugs
+
+| Bug | | |
