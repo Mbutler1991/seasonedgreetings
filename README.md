@@ -1,6 +1,6 @@
 # Seasoned Greetings 🍒
 
-![HackathonChristmas](assets/images/readme/family.jpg)
+![HackathonChristmas](documentation/family.jpg)
 
 View Seasoned Greetings website [here](https://mbutler1991.github.io/seasonedgreetings/).
 
@@ -36,7 +36,7 @@ While creating this project we were mindful that we future-proof it for scalabil
 
 We decided on a vibrant color palette for our site, being mindful to choose colours that could represent a number of celebrations over the holiday periods. This consideration steered us away from using the traditional red/green for our site, and we have instead chosen to include colours that reflect the season.
 
-![Coolers](assets/images/readme/color-palette.png)
+![Coolers](documentation/color-palette.png)
 
 ### Typography
 
@@ -51,20 +51,20 @@ Wireframes were utilised to allow the team to work cohesively with the same visi
 
 #### Home Page 🍒
 
-- ![Home Page Wireframe](assets/images/readme/landing-page.png) 
+- ![Home Page Wireframe](documentation/landing-page.png) 
 
 
 #### Recipe Page 🍒
 
-- ![Recipe Page Wireframe](assets/images/readme/recipe-page.png)
+- ![Recipe Page Wireframe](documentation/recipe-page.png)
 
 #### Thank You Page 🍒
 
-![Thank You Page Wireframe](assets/images/readme/meet-the-team-page.png)
+![Thank You Page Wireframe](documentation/meet-the-team-page.png)
 
 #### Contact Page 🍒
 
-![Contact Page Wireframe](assets/images/readme/contact-page.png)
+![Contact Page Wireframe](documentation/contact-page.png)
 
 
 ## Features
@@ -106,9 +106,9 @@ image of footer here
 
 - [GitHub](https://github.com/) - To save and store the files for the website. GitHub projects was also utilised to plan and track tickets.
 
-- [TheMealDB API]() - API used to enable searching of recipes
+- [TheMealDB API](https://www.themealdb.com/) - API used to enable searching of recipes
 
-- [Bootstrap] - Version 5.3. A CSS framework to develop responsive and mobile first websites.
+- [Bootstrap](https://getbootstrap.com/) - Version 5.3. A CSS framework to develop responsive and mobile first websites.
 
 - [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
