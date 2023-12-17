@@ -4,8 +4,11 @@ function searchRecipes(query) {
         .then(response => response.json())
         .then(data => {
             const container = document.getElementById('recipe-container');
+            const carousel = document.querySelector('.carousel');
             container.innerHTML = '';
 
+            // Hide the carousel when a search is performed
+            carousel.style.display = 'none';
 
             if (data.meals) {
                 container.innerHTML = '<h1>Search results:</h1>';
@@ -31,8 +34,8 @@ function searchRecipes(query) {
                     }
 
                     const html = `
-                    
-                    <div class="card gap-3">
+                    <br>
+                    <div class="card gap-3 team-container">
                         <img src="${recipe.image}" class="card-img-top" alt="${recipe.name}">
                         <div class="card-body gap-3">
                             <h5 class="card-title">${recipe.name}</h5>
@@ -54,3 +57,13 @@ function searchRecipes(query) {
             console.error('Error:', error);
         });
 }
+
+const searchInput = document.getElementById('search-input');
+
+
+searchInput.addEventListener('input', () => {
+    if (!searchInput.value) {
+        // Show the border carousel when the search input is cleared
+        carousel.style.display = 'block';
+    }
+});
