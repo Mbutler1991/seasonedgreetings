@@ -71,7 +71,7 @@ body > footer {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: url('../images/desert.jpg') center/cover no-repeat fixed;
+  background: url('../images/background.jpg') center/cover no-repeat fixed;
 }
 
 .contact-container {
@@ -92,9 +92,13 @@ label {
   color: #d9534f; 
 }
 
-/* Add this CSS to your existing stylesheet or create a new one */
 input[type="file"] {
-  display: none; /* Hide the default file input */
+  display: none; 
+}
+
+.file-upload-container {
+  text-align: center;
+  margin-bottom: 15px; 
 }
 
 .custom-file-upload {
@@ -125,13 +129,13 @@ select {
 }
 
 input[type="submit"] {
-  background-color: #5cb85c; 
+  background-color: darkgreen; 
   color: white;
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: #4cae4c; 
+  background-color: #DD0426; 
 }
 
 /* Additional styling for select dropdown */
