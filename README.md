@@ -2,83 +2,91 @@
 
 ![HackathonChristmas](assets/images/readme/family.jpg)
 
+View Seasoned Greetings website [here](https://mbutler1991.github.io/seasonedgreetings/).
+
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mbutler1991/seasonedgreetings/main)
+![GitHub contributors](https://img.shields.io/github/contributors/mbutler1991/seasonedgreetings)
+![GitHub language count](https://img.shields.io/github/languages/count/mbutler1991/seasonedgreetings)
+![GitHub top language](https://img.shields.io/github/languages/top/mbutler1991/seasonedgreetings)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fmbutler1991.github.io%2Fseasonedgreetings)
+
 ## 🌟 Welcome to Seasoned Greetings Recipe Sharing Hub 🌟
+
+Seasoned Greetings - Find a tried and true recipe, or give something new a taste this holiday season!
 
 This holiday season, join us in building a platform where people worldwide can share and discover diverse recipes. With a focus on inclusivity and a neutral, festive theme, let's create a global village of culinary delights. Happy sharing and happy holidays!
 
-## Deployment
+This project was created as part of the December 2023 Code Institute Hackathon: Secret Santa, A Holiday Hackathon.
 
-Experience Seasoned Greetings live [here](https://mbutler1991.github.io/seasonedgreetings/).
+## Project Goals
 
-## Deployment and Local Development
+For the December hackathon, each team participating was given a project theme by random. The Six Seasons team drew the theme recipe sharing site. For this hackathon we were given the brief of creating a project utilising only frontend technology.
 
-The project is deployed and can be accessed on this [hyperlink.](http://your-deployed-link.com)
+➡️ Problem Statement: As a user I want to be able to search recipes with a powerful filtering capacity to accomodate my preferences.
 
-## ⚡ Highlights
+➡️ Objective(s): The main objective is to create a website that allows users to search for holiday recipes.  
 
-In this section, we will briefly discuss how our team addressed the applicable criteria:
+➡️ Target Audience: The target audience is the global citizen.  People across the globe can use this website regardless of religion, culture, dietrary constraints, lifestyle choices and ingredient limitations. Consideration was given to present the holiday spirit in a generic, commercial tone to promote inclusivity.
 
-### 🎨 Creative Design for Enhanced User Experience
+While creating this project we were mindful that we future-proof it for scalability. We integrated [TheMealDB](https://www.themealdb.com/) API for powerful recipe filtering and included a contact and thank you pages for user interaction.
 
-#### Color Scheme
+## Design
 
-- Vibrant color palette from [Coolers](https://coolors.co/).
+### Color Scheme
+
+We decided on a vibrant color palette for our site, being mindful to choose colours that could represent a number of celebrations over the holiday periods. This consideration steered us away from using the traditional red/green for our site, and we have instead chosen to include colours that reflect the season.
 
 ![Coolers](assets/images/readme/color-palette.png)
 
-#### Typography
+### Typography
 
-- Eye-catching 'Sacramento' font for a warm, stylish feel.
+Typography was chosen to be fun, but also with accessility in mind. We chose to use Sacramento for the headings only, due to it being a cursive styled font, and Raleway for the body text on the site. This is a sans-serif font that is very accessible.
 
-#### Wireframes
+![Sacremento Font](documentation/sacramento-font.png)
+![Raleway Font](documentation/raleway-font.png)
 
-###### The Landing Page 🍒
+### Wireframes
 
-- ![Landing Page](assets/images/readme/landing-page.png) 
+Wireframes were utilised to allow the team to work cohesively with the same vision for the site. Small alterations have been made on the live site where required.
 
+#### Home Page 🍒
 
-###### The Recipe Page 🍒
-
-- ![Recipe Page](assets/images/readme/recipe-page.png)
-
-###### The Thank You Page 🍒
-
-- ![Contact Page](assets/images/readme/meet-the-team-page.png)
-
-###### The Contact Page 🍒
-
-- ![Contact Page](assets/images/readme/contact-page.png)
-
-### 🚀 Beyond the Basics
-- Future-proofed for scalability.
-- Integrated API for powerful recipe filtering.
-- Contact and Thank You pages for user interaction
+- ![Home Page Wireframe](assets/images/readme/landing-page.png) 
 
 
-### 📐 Responsive and Accessible
-- The website is responsive on mobiles, tablets, laptops, and desktops.
+#### Recipe Page 🍒
 
-### Project is well planned using Github Projects
+- ![Recipe Page Wireframe](assets/images/readme/recipe-page.png)
 
-### Project is 100% Front-end
+#### Thank You Page 🍒
 
-# ABOUT SUBMISSION
-## Intro
+![Thank You Page Wireframe](assets/images/readme/meet-the-team-page.png)
 
-## Goal
-The goal section provides a concise summary of the main objective or purpose of the project or software described in this README. It addresses the following aspects:
+#### Contact Page 🍒
 
-➡️ Problem Statement
-As a user I want to be able to search recipes with a powerful filtering capacity to accomodate my preferences.
+![Contact Page Wireframe](assets/images/readme/contact-page.png)
 
-➡️ Objective(s)
-The main objective is to create a website that allows users to search for holiday recipes.  
 
-➡️ Target Audience
-- The target audience is the global citizen.  People across the globe can use this website regardless of religion, culture, dietrary constraints, lifestyle choices and ingredient limitations. 
-- Consideration was given to present the holiday spirit in a generic, commercial tone to promote inclusivity.
+## Features
 
-➡️ Benefits
+Seasoned Greetings is comprised of ... pages: the home page, favourites page, team page, contact page, thank you page, 404 page and 500 page.
+
+Each page of the site has a favicon, a nav and footer^ and uses the same background image.
+
+### Favicon
+
+image of favicon here
+
+### Navbar
+
+image of navbar here
+
+### Footer
+
+image of footer here
+
+*^ The 404 and 500 pages do not have the nav and footer, due to issues with implementing the cracker with the bootstrap CDN included. Instead, a button to return to the home page has been included. This is something that we would like to look at during the next implementation of the site, as we feel that having the same nav and footer throughout the site improves the user experience of the site.*
+
 
 
 ## 💻 Tech Stack
@@ -86,17 +94,18 @@ The main objective is to create a website that allows users to search for holida
 - HTML
 - CSS
 - JavaScript
-- Bootstrap 
 
 ## Media, Frameworks, Libraries & Programs Used
 
 - [Git](https://git-scm.com/) - For version control.
 
-- [GitHub](https://github.com/) - To save and store the files for the website.
+- [GitHub](https://github.com/) - To save and store the files for the website. GitHub projects was also utilised to plan and track tickets.
+
+- [Bootstrap] - Version 5.3. A CSS framework to develop responsive and mobile first websites.
 
 - [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
-- [Font Awesome](https://fontawesome.com/) - For the iconography on the website.
+- [Font Awesome](https://fontawesome.com/) - Used for some iconography on the website.
 
 - [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
@@ -110,66 +119,39 @@ The main objective is to create a website that allows users to search for holida
 
 - [Coolers](https://coolors.co/) provided a festive palette used on this site.
 
-- Shields.io](https://shields.io/) To add badges to the README
+- [Shields.io](https://shields.io/) To add badges to the README
 
-- [ChatGPT](https://chat.openai.com/) was used as a resource.
+- [ChatGPT](https://chat.openai.com/) - To format and check spelling and grammar for the teams favourite recipes.
+
+
+## Deployment
+
+### Deployment and Local Development
+
+The project is deployed using GitHub Pages: [Seasoned Greetings](https://mbutler1991.github.io/seasonedgreetings/)
+
+Local development was carried out by the team using a number of different IDE's. A Wiki page [Project Set Up for Collaborators](https://github.com/Mbutler1991/seasonedgreetings/wiki/Project-Set-Up-for-Collaborators) was created by Kera for each team member to utilise to fork, clone and get their workspaces set up to enable collaboration on the project.
+
+Wiki pages were also created for [creating a pull request](https://github.com/Mbutler1991/seasonedgreetings/wiki/Create-a-Pull-Request) and [reviewing & merging a pull request](https://github.com/Mbutler1991/seasonedgreetings/wiki/Review-&-Merge-a-Pull-Request) to give the team a one stop resource to refer to.
+
+These wiki pages were invaluable due to it being 5 members first experience of participating in a hackathon!
 
 ## Credits
 
 ### Code
 
-- [Code Institute Readme Template Tutorial](Code-Institute-Solutions/readme-template).
-- [Code Institue Readme from Kera Cudmore](https://github.com/kera-cudmore).
+- [Cracker code](https://codepen.io/john_r_muir/pen/RwRObMK)
 
-### ## 🙌 Team 
-Hats off to Caylin Dewey, Emily Rosenberg, Jonathan Zakrisson, Mark Butler, and Yakiv Brychuk for crafting Seasoned Greetings. Special thanks to Kasia Bogucka for mentorship.
+### 🙌 Team 
+
+Hats off to Caylin Dewey, Emily Rosenberg, Jonathan Zakrisson, Kera Cudmore, Mark Butler and Yakiv Brychuk for crafting Seasoned Greetings. 
+
+Special thanks to Kasia Bogucka, our team facilitator.
 
 ## Acknowledgements
-- Code Institute Hackathon Crew: Kasia Bogucka, Kenan Wright, Kera Cudmore, Lane-Sawyer Thompson for hosting this wondeful Hackathon.
+
+A huge thank you to the Code Institute Hackathon Team and the community team for providing these amazing opportunities for us to particate collaboratively with others.
 
 ## 🌍 Join the Festivities
 
 This isn't just a project; it's an invitation to a global holiday feast. Let's celebrate the season together at [Seasoned Greetings](https://mbutler1991.github.io/seasonedgreetings/)!
-
-
-
-
-
-
-------------------------- should we add this in???  --------------------------------------
-
-
-### How to Deploy 
-
-Github was used to deploy this site.  The steps are as follows:
-1. Log into the [Github site.](https://github.com/)
-2. Pull up the repository for [Seasoned Greetings.](https://github.com/Mbutler1991/seasonedgreetings)
-3. Select the settings link, then the pages link.
-4. In the source section choose 'main' from the dropdown menu.  
-5. Select the 'root' from the drop menu and 'save'.
-6. The URL that is displayed should have your live Github pages site. 
-
-### How to Fork
-
-1. Log into the [Github site](https://github.com/)
-2. Pull up the repository for [Seasoned Greetings](https://github.com/Mbutler1991/seasonedgreetings).
-3. Use to the fork button on the top right hand corner.
-
-### How to Clone
-
-1. Log into the [Github site](https://github.com/).
-2. Click on the burger menu that will open up the repositories you are working on at the bottom.  Select the project you need.
-3. Click on the clone button and select from HTTPS, SSH, or GitHub CLI.  Then copy the link shown.
-4. Open your code editor terminal and change the current work directory to the location you want to use for the cloned directory.
-5. Type in the terminal 'git clone' and paste your link here. 
-
-## Open Source Contributions
-
-If you would like to contribute to the project, please follow these guidelines:
-
-- For futher guidelines please read [How to contribute to Open Source](https://opensource.guide/how-to-contribute/#how-to-submit-a-contribution)
-- Fork the repository [seasonedgreetings](https://github.com/Mbutler1991/seasonedgreetings)
-- Name the branch with the feature you intend to add. 
-- Commit changes and push to branch
-- Open a pull request
-
