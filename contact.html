@@ -75,8 +75,8 @@
       <button type="button" class="btn btn-outline-primary" id="search" data-mdb-ripple-init>search</button>
     </div>
   </nav>
-  <!-- end of Navbar -->
-
+  
+  <!-- Contact Page -->
   <div class="contact-body">
     <div class="contact-container">
       <form class="contact-form" action="thankyou.html">
@@ -89,7 +89,13 @@
         <label for="phone">Phone Number:</label>
         <input type="tel" id="phone" name="phone" required>
 
+        <div class="file-upload-container">
+          <label for="file" class="custom-file-upload">Choose File</label>
+          <input type="file" id="file" name="file" accept=".pdf, .doc, .docx, .jpg, .jpeg, .png">
+        </div>
+
         <label for="inquiryType">Inquiry Type:</label>
+
 
         <!-- Add a placeholder and options for Recipe Suggestion and General Enquiry -->
         <select id="enquiry-type" name="enquiry-type" required>
@@ -105,51 +111,8 @@
       </form>
     </div>
   </div>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
 
-        const form = document.querySelector('.contact-form');
-        const phoneInput = document.getElementById('phone');
-        let errorMessageShown = false;
 
-        form.addEventListener('submit', function (event) {
-            const phoneValue = phoneInput.value.trim();
-
-            // Define the regular expression for a valid international phone number
-            const phoneRegex = /^\+\d{1,3}\s?\d{1,}$/;
-
-            if (!phoneRegex.test(phoneValue)) {
-                if (!errorMessageShown) {
-                    // Create a new error message element
-                    const errorMessage = document.createElement('div');
-                    errorMessage.classList.add('error-message');
-                    errorMessage.textContent = 'Please enter a valid international phone number with the country code. For example, +123 4567890';
-
-                    // Insert the error message after the phone input
-                    phoneInput.parentNode.insertBefore(errorMessage, phoneInput.nextSibling);
-
-                    // Highlight the input field to draw attention
-                    phoneInput.classList.add('error');
-
-                    errorMessageShown = true; // Set the flag to true
-                }
-
-                // Prevent form submission
-                event.preventDefault();
-            }
-        });
-
-        // Remove the error message and styling when the phone input is focused
-        phoneInput.addEventListener('focus', function () {
-            const errorMessage = document.querySelector('.error-message');
-            if (errorMessage) {
-                errorMessage.remove();
-                phoneInput.classList.remove('error');
-                errorMessageShown = false; // Reset the flag
-            }
-        });
-    });
-</script>
 <footer>
   <div class="social-media">
     <a href="https://twitter.com/" class="fa fa-twitter"></a>
@@ -161,6 +124,7 @@
     </div>
   </div>
 </footer>
+
 </body>
 
 </html>
