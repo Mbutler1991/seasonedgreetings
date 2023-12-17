@@ -34,7 +34,7 @@ function searchRecipes(query) {
                     }
 
                     const html = `
-                    
+                    <br>
                     <div class="card gap-3 team-container">
                         <img src="${recipe.image}" class="card-img-top" alt="${recipe.name}">
                         <div class="card-body gap-3">
