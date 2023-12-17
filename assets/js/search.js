@@ -35,7 +35,7 @@ function searchRecipes(query) {
 
                     const html = `
                     <br>
-                    <div class="card gap-3 team-container">
+                    <div class="card">
                         <img src="${recipe.image}" class="card-img-top" alt="${recipe.name}">
                         <div class="card-body gap-3">
                             <h5 class="card-title">${recipe.name}</h5>
@@ -50,7 +50,10 @@ function searchRecipes(query) {
                     container.innerHTML += html;
                 });
             } else {
-                container.innerHTML = 'No recipes found.';
+                container.innerHTML = `
+                <div class="d-flex justify-content-center align-items-center">
+                <h2>No recipes found.</h2>
+                </div>`;
             }
         })
         .catch(error => {
