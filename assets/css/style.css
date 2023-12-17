@@ -216,6 +216,21 @@ select:focus {
   box-shadow: 0 0 5px #d9534f; /* Red box-shadow on focus */
 }
 
+/*card styles for favourites page*/
+.card-flex {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+
+.card-flex .card-body {
+  flex-grow: 1;
+}
+
+.col-lg-6 {
+  margin-bottom: 20px;
+}
+
 /* Media query for responsiveness */
 @media screen and (max-width: 600px) {
   .contact-form {
