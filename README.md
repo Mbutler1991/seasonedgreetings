@@ -51,20 +51,20 @@ Wireframes were utilised to allow the team to work cohesively with the same visi
 
 #### Home Page 🍒
 
-- ![Home Page Wireframe](documentation/landing-page.png) 
+- ![Home Page Wireframe](documentation/wireframes/landing-page.png) 
 
 
 #### Recipe Page 🍒
 
-- ![Recipe Page Wireframe](documentation/recipe-page.png)
+- ![Recipe Page Wireframe](documentation/wireframes/recipe-page.png)
 
 #### Thank You Page 🍒
 
-![Thank You Page Wireframe](documentation/meet-the-team-page.png)
+![Thank You Page Wireframe](documentation/wireframes/meet-the-team-page.png)
 
 #### Contact Page 🍒
 
-![Contact Page Wireframe](documentation/contact-page.png)
+![Contact Page Wireframe](documentation/wireframes/contact-page.png)
 
 
 ## Features
