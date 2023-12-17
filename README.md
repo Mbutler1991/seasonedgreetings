@@ -22,7 +22,7 @@ This project was created as part of the December 2023 Code Institute Hackathon: 
 
 For the December hackathon, each team participating was given a project theme by random. The Six Seasons team drew the theme recipe sharing site. For this hackathon we were given the brief of creating a project utilising only frontend technology.
 
-➡️ Problem Statement: As a user I want to be able to search recipes with a powerful filtering capacity to accomodate my preferences.
+➡️ Problem Statement: As a user I want to be able to search recipes with a powerful filtering capacity to accommodate my preferences.
 
 ➡️ Objective(s): The main objective is to create a website that allows users to search for holiday recipes.  
 
@@ -40,7 +40,7 @@ We decided on a vibrant color palette for our site, being mindful to choose colo
 
 ### Typography
 
-Typography was chosen to be fun, but also with accessility in mind. We chose to use Sacramento for the headings only, due to it being a cursive styled font, and Raleway for the body text on the site. This is a sans-serif font that is very accessible.
+Typography was chosen to be fun, but also with accessibility in mind. We chose to use Sacramento for the headings only, due to it being a cursive styled font, and Raleway for the body text on the site. This is a sans-serif font that is very accessible.
 
 ![Sacremento Font](documentation/sacramento-font.png)
 ![Raleway Font](documentation/raleway-font.png)
@@ -51,31 +51,33 @@ Wireframes were utilised to allow the team to work cohesively with the same visi
 
 #### Home Page 🍒
 
-- ![Home Page Wireframe](documentation/landing-page.png) 
+- ![Home Page Wireframe](documentation/wireframes/landing-page.png) 
 
 
 #### Recipe Page 🍒
 
-- ![Recipe Page Wireframe](documentation/recipe-page.png)
+- ![Recipe Page Wireframe](documentation/wireframes/recipe-page.png)
 
 #### Thank You Page 🍒
 
-![Thank You Page Wireframe](documentation/meet-the-team-page.png)
+![Thank You Page Wireframe](documentation/wireframes/meet-the-team-page.png)
 
 #### Contact Page 🍒
 
-![Contact Page Wireframe](documentation/contact-page.png)
+![Contact Page Wireframe](documentation/wireframes/contact-page.png)
 
 
 ## Features
 
-Seasoned Greetings is comprised of ... pages: the home page, favourites page, team page, contact page, thank you page, 404 page and 500 page.
+Seasoned Greetings is comprised of 7 pages: the home page, favourites page, team page, contact page, thank you page, 404 page and 500 page.
 
 Each page of the site has a favicon, a nav and footer^ and uses the same background image.
 
 ### Favicon
 
-image of favicon here
+The favicon was created using [favicon.io](https://favicon.io).
+
+![Seasoned Greetings Favicon](documentation/favicon.png)
 
 ### Navbar
 
@@ -86,6 +88,34 @@ image of navbar here
 image of footer here
 
 *^ The 404 and 500 pages do not have the nav and footer, due to issues with implementing the cracker with the bootstrap CDN included. Instead, a button to return to the home page has been included. This is something that we would like to look at during the next implementation of the site, as we feel that having the same nav and footer throughout the site improves the user experience of the site.*
+
+### Home Page
+
+![]()
+
+### Favourites Page
+
+![]()
+
+### Meet the Team Page
+
+![]()
+
+### Contact Page
+
+![]()
+
+### Thank You Page
+
+![]()
+
+### 404 Page
+
+![]()
+
+### 500 Page
+
+![]()
 
 ## Future Implementations
 
@@ -157,7 +187,7 @@ Special thanks to Kasia Bogucka, our team facilitator.
 
 ## Acknowledgements
 
-A huge thank you to the Code Institute Hackathon Team and the community team for providing these amazing opportunities for us to particate collaboratively with others.
+A huge thank you to the Code Institute Hackathon Team and the community team for providing these amazing opportunities for us to participate collaboratively with others.
 
 ## 🌍 Join the Festivities
 
