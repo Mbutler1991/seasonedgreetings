@@ -87,7 +87,12 @@ image of footer here
 
 *^ The 404 and 500 pages do not have the nav and footer, due to issues with implementing the cracker with the bootstrap CDN included. Instead, a button to return to the home page has been included. This is something that we would like to look at during the next implementation of the site, as we feel that having the same nav and footer throughout the site improves the user experience of the site.*
 
+## Future Implementations
 
+* User can add a recipe to the site.
+* Review system.
+* Search for recipes based on ingredients.
+* Enable contact form functionality.
 
 ## 💻 Tech Stack
 
@@ -100,6 +105,8 @@ image of footer here
 - [Git](https://git-scm.com/) - For version control.
 
 - [GitHub](https://github.com/) - To save and store the files for the website. GitHub projects was also utilised to plan and track tickets.
+
+- [TheMealDB API]() - API used to enable searching of recipes
 
 - [Bootstrap] - Version 5.3. A CSS framework to develop responsive and mobile first websites.
 
