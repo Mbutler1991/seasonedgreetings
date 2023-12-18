@@ -142,7 +142,7 @@ image of footer here
 
 - [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
-- [Font Awesome](https://fontawesome.com/) - Used for some iconography on the website.
+- [Font Awesome](https://fontawesome.com/) - Version 4.7 Used for some iconography on the website.
 
 - [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
