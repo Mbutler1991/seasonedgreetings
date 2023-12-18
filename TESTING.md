@@ -34,13 +34,13 @@ We have gone through each page using google chrome developer tools & Firefox ins
 
 #### HTML
 
-* [Home Page]()
-* [Favourites Page]()
-* [Team Page]()
-* [Contact Page]()
-* [Thank You Page]()
-* [404 Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmbutler1991.github.io%2Fseasonedgreetings%2F404.html)
-* [500 Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmbutler1991.github.io%2Fseasonedgreetings%2F500.html)
+* [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbutler1991.github.io%2Fseasonedgreetings%2Findex.html) - Passed
+* [Favourites Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbutler1991.github.io%2Fseasonedgreetings%2Ffavourites.html) - Passed
+* [Team Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbutler1991.github.io%2Fseasonedgreetings%2Fteam.html) - 1 warning
+* [Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbutler1991.github.io%2Fseasonedgreetings%2Fcontact.html) - Passed
+* [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmbutler1991.github.io%2Fseasonedgreetings%2Fthankyou.html) - Passed
+* [404 Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmbutler1991.github.io%2Fseasonedgreetings%2F404.html) - Passed
+* [500 Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmbutler1991.github.io%2Fseasonedgreetings%2F500.html) - Passed
 
 #### CSS
 
