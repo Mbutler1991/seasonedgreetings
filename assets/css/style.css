@@ -293,8 +293,9 @@ select:focus {
     margin-bottom: 5px; /* Add or adjust bottom margin as needed */
 }
 
-#search {
+  #search {
     width: 30%; /* Adjust the width as needed */
     font-size: 12px; /* Adjust the font size as needed */
     margin-left: 2; /* Remove left margin */
+  }
 }
