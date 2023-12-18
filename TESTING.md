@@ -136,4 +136,6 @@ Additional testing was taken by friends and family on a variety of devices and s
 
 ### Known Bugs
 
-| Bug | | |
+| Bug No | Issue |
+| :---: | :--- |
+| 1 | 404 page and 500 page cracker doesn't display correctly when bootstrap CDN link added to the page |
