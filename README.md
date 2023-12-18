@@ -81,11 +81,15 @@ The favicon was created using [favicon.io](https://favicon.io).
 
 ### Navbar
 
-image of navbar here
+We opted to go with a toggle navbar to give the site a clean asethetic. The navbar contains links to the home page, favourites page, contact page and meet the team page. Each link has styling to show that page is active when you are on that page. The site heading also acts as a link back to the home page.
+
+![Navbar](documentation/nav.png)
 
 ### Footer
 
-image of footer here
+The footer contains our copyright, a link to our team page and social media icons that take the user to the social sites in a new browser tab.
+
+![Footer](documentation/footer.png)
 
 *^ The 404 and 500 pages do not have the nav and footer, due to issues with implementing the cracker with the bootstrap CDN included. Instead, a button to return to the home page has been included. This is something that we would like to look at during the next implementation of the site, as we feel that having the same nav and footer throughout the site improves the user experience of the site.*
 
