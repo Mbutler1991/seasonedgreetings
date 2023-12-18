@@ -11,7 +11,8 @@ function searchRecipes(query) {
             carousel.style.display = 'none';
 
             if (data.meals && data.meals.length > 0) { //added for err handling
-                container.innerHTML = '<h1>Search results:</h1>';
+                container.innerHTML = '<h1 class="bg-black text-white bg-opacity-75">Search results:</h1>';
+
                 data.meals.forEach(meal => {
                     const recipe = {
                         name: meal.strMeal,
