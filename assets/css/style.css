@@ -107,6 +107,15 @@ color: var(--off-white);
   color: var(--off-white);
 }
 
+#search-input {
+  width: 150px; /* Adjust the width as needed */
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+#search {
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
 .search-button {
   background-color: var(--dark-grey);
 }
@@ -267,4 +276,20 @@ select:focus {
     max-width: 100%;
   }
 
+}
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+
+  #search-input {
+    width: 35%; /* Adjust the width as needed */
+    font-size: 12px; /* Adjust the font size as needed */
+    margin-right: 2%; /* Add or adjust right margin as needed */
+    margin-bottom: 5px; /* Add or adjust bottom margin as needed */
+}
+
+#search {
+    width: 30%; /* Adjust the width as needed */
+    font-size: 12px; /* Adjust the font size as needed */
+    margin-left: 2; /* Remove left margin */
 }
