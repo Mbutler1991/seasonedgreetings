@@ -26,7 +26,7 @@ For the December hackathon, each team participating was given a project theme by
 
 ➡️ Objective(s): The main objective is to create a website that allows users to search for holiday recipes.  
 
-➡️ Target Audience: The target audience is the global citizen.  People across the globe can use this website regardless of religion, culture, dietrary constraints, lifestyle choices and ingredient limitations. Consideration was given to present the holiday spirit in a generic, commercial tone to promote inclusivity.
+➡️ Target Audience: The target audience is the global citizen.  People across the globe can use this website regardless of religion, culture, dietary constraints, lifestyle choices and ingredient limitations. Consideration was given to present the holiday spirit in a generic, commercial tone to promote inclusivity.
 
 While creating this project we were mindful that we future-proof it for scalability. We integrated [TheMealDB](https://www.themealdb.com/) API for powerful recipe filtering and included a contact and thank you pages for user interaction.
 
@@ -81,7 +81,7 @@ The favicon was created using [favicon.io](https://favicon.io).
 
 ### Navbar
 
-We opted to go with a toggle navbar to give the site a clean asethetic. The navbar contains links to the home page, favourites page, contact page and meet the team page. Each link has styling to show that page is active when you are on that page. The site heading also acts as a link back to the home page.
+We opted to go with a toggle navbar to give the site a clean aesthetic. The navbar contains links to the home page, favourites page, contact page and meet the team page. Each link has styling to show that page is active when you are on that page. The site heading also acts as a link back to the home page.
 
 ![Navbar](documentation/nav.png)
 
