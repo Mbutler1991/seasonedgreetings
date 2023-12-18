@@ -91,31 +91,31 @@ image of footer here
 
 ### Home Page
 
-![]()
+![Home Page on a variety of devices](documentation/home.png)
 
 ### Favourites Page
 
-![]()
+![Favourites Page on a variety of devices](documentation/favourites.png)
 
 ### Meet the Team Page
 
-![]()
+![Meet the Team Page on a variety of devices](documentation/team.png)
 
 ### Contact Page
 
-![]()
+![Contact Page on a variety of devices](documentation/contact.png)
 
 ### Thank You Page
 
-![]()
+![Thank You Page on a variety of devices](documentation/thankyou.png)
 
 ### 404 Page
 
-![]()
+![404 Page on a variety of devices](documentation/404.png)
 
 ### 500 Page
 
-![]()
+![500 Page on a variety of devices](documentation/500.png)
 
 ## Future Implementations
 
