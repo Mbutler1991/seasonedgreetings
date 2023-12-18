@@ -140,6 +140,11 @@ body > footer {
   color: var(--off-white)
 }
 
+.sr-only {
+  color: var(--white);
+}
+
+
 /*-- Search Bar Err Handling --*/
 
 #no-recipes-found {
@@ -150,7 +155,7 @@ body > footer {
   background-color: #EFF6EE;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border: 2px solid #DD0426; /* Add a red border */
+  border: 2px solid var(--dark-red); /* Add a red border */
 }
 
 
@@ -184,8 +189,8 @@ body > footer {
 label {
   display: block;
   margin-top: 10px;
-  color: #DD0426;; 
-  color: #DD0426;; 
+  color: var(--dark-red);
+  color: var(--dark-red);
 }
 
 input[type="file"] {
@@ -198,7 +203,7 @@ input[type="file"] {
 }
 
 .custom-file-upload:hover {
-  background-color: #DD0426;
+  background-color: var(--dark-red);
 }
 
 input,
@@ -209,11 +214,11 @@ select {
   margin-top: 5px;
   margin-bottom: 10px;
   box-sizing: border-box;
-  border: 1px solid #DD0426;; 
+  border: 1px solid var(--dark-red);
   border-radius: 5px;
-  border: 1px solid #DD0426;; 
+  border: 1px solid var(--dark-red);
   border-radius: 5px;
-  border: 1px solid #DD0426;; 
+  border: 1px solid var(--dark-red);
   border-radius: 5px;
 }
 
@@ -237,8 +242,8 @@ select {
 }
 
 select:focus {
-  border-color: #DD0426;; 
-  box-shadow: 0 0 5px #DD0426;; 
+  border-color: var(--dark-red);
+  box-shadow: 0 0 5px var(--dark-red);
 }
 
 /*card styles for favourites page*/
@@ -258,11 +263,11 @@ select:focus {
 
 /*----- TEAM PAGE STYLES -----*/
 .team-link {
-  color: var(--dark-red)
+  color: var(--dark-red);
 }
 
 .team-link:hover {
-  color: var(--dark-grey)
+  color: var(--dark-grey);
 }
 
 /* Media query for responsiveness */
@@ -275,7 +280,6 @@ select:focus {
   .contact-form {
     max-width: 100%;
   }
-
 }
 
 /* For smaller screens */
@@ -288,8 +292,9 @@ select:focus {
     margin-bottom: 5px; /* Add or adjust bottom margin as needed */
 }
 
-#search {
+  #search {
     width: 30%; /* Adjust the width as needed */
     font-size: 12px; /* Adjust the font size as needed */
-    margin-left: 2; /* Remove left margin */
+    margin-left: 2%; /* Remove left margin */
+  }
 }
