@@ -140,6 +140,11 @@ body > footer {
   color: var(--off-white)
 }
 
+.sr-only {
+  color: var(--white);
+}
+
+
 /*-- Search Bar Err Handling --*/
 
 #no-recipes-found {
