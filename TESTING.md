@@ -12,7 +12,6 @@ Visit the deployed site: [Seasoned Greetings](https://mbutler1991.github.io/seas
   * [W3C Validator](#w3c-validator)
   * [JavaScript Validator](#javascript-validator)
   * [Lighthouse](#lighthouse)
-  * [WAVE Testing](#wave-testing)
 * [MANUAL TESTING](#manual-testing)
   * [Full Testing](#full-testing)
 
