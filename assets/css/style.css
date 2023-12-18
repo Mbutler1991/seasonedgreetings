@@ -131,6 +131,21 @@ body > footer {
   color: var(--off-white)
 }
 
+/*-- Search Bar Err Handling --*/
+
+#no-recipes-found {
+  text-align: center;
+  color: #006400;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #EFF6EE;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #DD0426; /* Add a red border */
+}
+
+
+
 /*-- Contact Page Styles --*/
 
 .contact-body {

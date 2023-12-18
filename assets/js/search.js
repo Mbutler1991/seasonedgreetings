@@ -10,7 +10,7 @@ function searchRecipes(query) {
             // Hide the carousel when a search is performed
             carousel.style.display = 'none';
 
-            if (data.meals) {
+            if (data.meals && data.meals.length > 0) { //added for err handling
                 container.innerHTML = '<h1>Search results:</h1>';
                 data.meals.forEach(meal => {
                     const recipe = {
@@ -40,9 +40,9 @@ function searchRecipes(query) {
                         <div class="card-body gap-3">
                             <h5 class="card-title">${recipe.name}</h5>
                             <p class="card-text">${recipe.instructions}</p>
-            <ul>
-              ${recipe.ingredients.map(ingredient => `<li>${ingredient.ingredient} - ${ingredient.measure}</li>`).join('')}
-            </ul>                     
+                            <ul>
+                                ${recipe.ingredients.map(ingredient => `<li>${ingredient.ingredient} - ${ingredient.measure}</li>`).join('')}
+                            </ul>                     
                         </div>
                     </div>
                     `;
@@ -51,8 +51,8 @@ function searchRecipes(query) {
                 });
             } else {
                 container.innerHTML = `
-                <div class="d-flex justify-content-center align-items-center">
-                <h2>No recipes found.</h2>
+                <div id="no-recipes-found" class="d-flex justify-content-center align-items-center">
+                <h2>No recipes found. Please try another.</h2>
                 </div>`;
             }
         })
