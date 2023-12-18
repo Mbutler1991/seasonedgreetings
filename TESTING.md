@@ -139,3 +139,4 @@ Additional testing was taken by friends and family on a variety of devices and s
 | Bug No | Issue |
 | :---: | :--- |
 | 1 | 404 page and 500 page cracker doesn't display correctly when bootstrap CDN link added to the page |
+| 2 | 404 page and 500 page are not responsive on mobile |
