@@ -51,11 +51,11 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar fixed-top" style="background-color: #DD0426">
-    <span class="mx-auto d-flex">
+    <div class="mx-auto d-flex">
       <h1><a href="index.html" class="text-reset text-decoration-none text-center">Seasoned
           Greetings</a>
       </h1>
-    </span>
+    </div>
     <button class="navbar-toggler navbar-dark border-0" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
       aria-label="Toggle navigation">
@@ -81,7 +81,7 @@
   <!-- Contact Page -->
   <div class="contact-body">
     <div class="contact-container w-50 mt-5">
-      <form class="contact-form" action="thankyou.html">
+      <form class="contact-form" method="get" action="thankyou.html">
         <h2>Contact Us<span style="font-size: 1.5em;">🍒</span>
         </h2>
 
@@ -96,10 +96,8 @@
           <input type="file" id="file" name="file" accept=".pdf, .doc, .docx, .jpg, .jpeg, .png">
         </div>
 
-        <label for="inquiryType">Inquiry Type:</label>
+        <label for="enquiry-type">Inquiry Type:</label>
 
-
-        <!-- Add a placeholder and options for Recipe Suggestion and General Enquiry -->
         <select id="enquiry-type" name="enquiry-type" required>
           <option value="" disabled selected>Please select</option>
           <option value="recipe">Recipe Suggestion</option>
@@ -109,7 +107,7 @@
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="4" placeholder="Message..." required></textarea>
 
-        <button class="search-button btn btn-outline-light w-100" type="submit" action="thankyou.html">Submit</button>
+        <button class="search-button btn btn-outline-light w-100" type="submit">Submit</button>
       </form>
     </div>
   </div>
@@ -126,7 +124,7 @@
       <div class="me-5 d-none d-lg-block">
         <h3>Seasoned Greetings 🍒</h3>
         <p>
-          <span class="opacity-50">Copyright &copy 2023</span>
+          <span class="opacity-50">Copyright &copy; 2023</span>
           <a href="team.html" class="text-decoration-none meet-text">Meet the Team</a>
         </p>
       </div>
