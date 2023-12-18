@@ -139,13 +139,13 @@ body > footer {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: url('../images/background.jpg') center/cover no-repeat fixed;
-  background: url('../images/background.jpg') center/cover no-repeat fixed;
+  padding-top: 10%;
 }
 
 .contact-container {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
+  margin-top: 50px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -242,6 +242,7 @@ select:focus {
   }
 
   .contact-form {
-      max-width: 100%;
+    max-width: 100%;
   }
+
 }
