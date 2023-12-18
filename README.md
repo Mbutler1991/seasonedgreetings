@@ -146,7 +146,7 @@ The footer contains our copyright, a link to our team page and social media icon
 
 - [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
-- [Font Awesome](https://fontawesome.com/) - Version 4.7 Used for some iconography on the website.
+- [Font Awesome](https://fontawesome.com/) - Version 6.5.1 Used for some iconography on the website.
 
 - [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
