@@ -155,7 +155,8 @@ body > footer {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding-top: 10%;
+  padding-top: 20%;
+  padding-bottom: 50px;
 }
 
 .contact-container {
