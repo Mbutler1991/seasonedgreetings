@@ -179,6 +179,8 @@ These wiki pages were invaluable due to it being 5 members first experience of p
 
 ## Credits
 
+- A big thank you to the amazing artist [Nikita Ellison](https://www.facebook.com/profile.php?id=100083666804679) for creating a personalised [background image](assets/images/background.jpg) for our site. Nikita was tasked with creating something that would be suitable for a range of holidays. The background was painted using acrylics on a canvas.
+
 ### Code
 
 - [Cracker code](https://codepen.io/john_r_muir/pen/RwRObMK)
