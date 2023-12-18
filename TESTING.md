@@ -122,7 +122,7 @@ Additional testing was taken by friends and family on a variety of devices and s
 | Close modal button | Users can click this button and the modal will close | clicked close button | Modal closed | Pass |
 ||||||
 | `Meet the Team` |||||
-| Team Social Links | Users can click on the linkedin or github links on each team members card and they will be taken to the team members linkedin or github page in a new tab | Clicked links | New tab with users linkedin/github opened | Pass |
+| Team Social Links | Users can click on the LinkedIn or GitHub links on each team members card and they will be taken to the team members LinkedIn or GitHub page in a new tab | Clicked links | New tab with users LinkedIn/GitHub opened | Pass |
 ||||||
 | `Contact` |||||
 | Submit completed contact form | User is able to submit contact form if fields are filled out | Submit completed contact form | Taken to thank you page | Pass |
