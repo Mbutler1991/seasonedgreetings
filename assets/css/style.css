@@ -246,6 +246,15 @@ select:focus {
   margin-bottom: 20px;
 }
 
+/*----- TEAM PAGE STYLES -----*/
+.team-link {
+  color: var(--dark-red)
+}
+
+.team-link:hover {
+  color: var(--dark-grey)
+}
+
 /* Media query for responsiveness */
 @media screen and (max-width: 600px) {
 
