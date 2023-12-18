@@ -236,6 +236,11 @@ select:focus {
 
 /* Media query for responsiveness */
 @media screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 2rem;
+  }
+
   .contact-form {
     max-width: 100%;
   }
