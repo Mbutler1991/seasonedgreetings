@@ -91,31 +91,31 @@ image of footer here
 
 ### Home Page
 
-![]()
+![Home Page on a variety of devices](documentation/home.png)
 
 ### Favourites Page
 
-![]()
+![Favourites Page on a variety of devices](documentation/favourites.png)
 
 ### Meet the Team Page
 
-![]()
+![Meet the Team Page on a variety of devices](documentation/team.png)
 
 ### Contact Page
 
-![]()
+![Contact Page on a variety of devices](documentation/contact.png)
 
 ### Thank You Page
 
-![]()
+![Thank You Page on a variety of devices](documentation/thankyou.png)
 
 ### 404 Page
 
-![]()
+![404 Page on a variety of devices](documentation/404.png)
 
 ### 500 Page
 
-![]()
+![500 Page on a variety of devices](documentation/500.png)
 
 ## Future Implementations
 
@@ -142,7 +142,7 @@ image of footer here
 
 - [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
-- [Font Awesome](https://fontawesome.com/) - Used for some iconography on the website.
+- [Font Awesome](https://fontawesome.com/) - Version 4.7 Used for some iconography on the website.
 
 - [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, solve issues with responsiveness and styling.
 

@@ -1,6 +1,6 @@
 # Seasoned Greetings -  Testing
 
-Site image here 
+![Seasoned Greetings on a variety of devices](documentation/site-responsive.png)
 
 Visit the deployed site: [Seasoned Greetings](https://mbutler1991.github.io/seasonedgreetings/)
 
@@ -39,12 +39,13 @@ We have gone through each page using google chrome developer tools & Firefox ins
 * [Team Page]()
 * [Contact Page]()
 * [Thank You Page]()
-* [404 Page]()
+* [404 Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmbutler1991.github.io%2Fseasonedgreetings%2F404.html)
+* [500 Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmbutler1991.github.io%2Fseasonedgreetings%2F500.html)
 
 #### CSS
 
-* [style.css]()
-* [cracker.css]()
+* [style.css](documentation/testing/style-css-validation.png)
+* [cracker.css](documentation/testing/cracker-css-validation.png)
 
 - - -
 
@@ -139,3 +140,4 @@ Additional testing was taken by friends and family on a variety of devices and s
 | Bug No | Issue |
 | :---: | :--- |
 | 1 | 404 page and 500 page cracker doesn't display correctly when bootstrap CDN link added to the page |
+| 2 | 404 page and 500 page are not responsive on mobile |
