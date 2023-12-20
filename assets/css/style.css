@@ -132,12 +132,15 @@ body > footer {
 
 /* Footer styles */
 
+.copyright {
+  color: var(--off-white);
+}
 .meet-text {
-  color: var(--black)
+  color: var(--off-white)
 }
 
 .meet-text:hover {
-  color: var(--off-white)
+  color: var(--black)
 }
 
 .sr-only {
