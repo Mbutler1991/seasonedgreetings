@@ -12,6 +12,7 @@ Visit the deployed site: [Seasoned Greetings](https://mbutler1991.github.io/seas
   * [W3C Validator](#w3c-validator)
   * [JavaScript Validator](#javascript-validator)
   * [Lighthouse](#lighthouse)
+  * [WAVE](#wave)
 * [MANUAL TESTING](#manual-testing)
   * [Full Testing](#full-testing)
 
@@ -82,6 +83,10 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 * [Thank You Page](documentation/testing/thankyou-mb-lh.png)
 * [404 Page](documentation/testing/404-mb-lh.png)
 * [500 Page](documentation/testing/500-mb-lh.png)
+
+### WAVE
+
+[WAVE](https://wave.webaim.org/) testing was performed on our project to ensure that the site meets minimum accessibility requirements.
 
 - - -
 
