@@ -88,6 +88,14 @@ We used Lighthouse within the Chrome Developer Tools to test the performance, ac
 
 [WAVE](https://wave.webaim.org/) testing was performed on our project to ensure that the site meets minimum accessibility requirements.
 
+* [Home Page](https://wave.webaim.org/report#/https://mbutler1991.github.io/seasonedgreetings/) - No Errors
+* [Favourites Page](https://wave.webaim.org/report#/https://mbutler1991.github.io/seasonedgreetings/favourites.html) - No Errors
+* [Meet the Team Page](https://wave.webaim.org/report#/https://mbutler1991.github.io/seasonedgreetings/team.html) - No Errors
+* [Contact Page](https://wave.webaim.org/report#/https://mbutler1991.github.io/seasonedgreetings/contact.html) - No Errors
+* [Thank You Page](https://wave.webaim.org/report#/https://mbutler1991.github.io/seasonedgreetings/thankyou.html) - 1 Error for use of redirection using meta
+* [404 Page](https://wave.webaim.org/report#/https://mbutler1991.github.io/seasonedgreetings/404.html) - No Errors
+* [500 Page](https://wave.webaim.org/report#/https://mbutler1991.github.io/seasonedgreetings/500.html) - No Errors
+
 - - -
 
 ## MANUAL TESTING
